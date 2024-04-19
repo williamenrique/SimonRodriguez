@@ -1,0 +1,11 @@
+.contenedor{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+.contenedor h2{
+    font-size: 3rem;
+    color: navy;
+}
