@@ -17,7 +17,7 @@ const JS_VENDORS = BASE_URL."src/vendors/js/";
 const CSS_VENDORS = BASE_URL."src/vendors/css/";
 const IMG_VENDORS = BASE_URL."src/vendors/images/";
 const VENDORS = BASE_URL."src/vendors/";
-const PLUGINS = BASE_URL."src/vendors/plugins/";
+const PLUGINS = BASE_URL."src/plugins/";
 
 const CONTROLLER = BASE_URL."system/core/Libraries/Controllers.php";
 const LOAD = BASE_URL."system/core/Libraries/Load.php";

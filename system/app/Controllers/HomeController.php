@@ -14,7 +14,7 @@ class Home extends Controllers{
 		//incluimos un arreglo que contendra toda la informacion que se enviara al home
 		$data['page_id'] = 0;
 		$data['page_tag'] = "TITULO DE PAGINA";
-		$data['page_title'] = "Pagina Principal";
+		$data['page_title'] = "UNESR";
 		$data['page_name'] = "home";
 		// uso para activar los link en los enlaces
 		// $data['page_menu'] = "usuarios";
