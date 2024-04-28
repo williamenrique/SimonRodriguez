@@ -1,4 +1,5 @@
 <?php
+// const BASE_URL = "https://pruebassistemas1.000webhostapp.com/";
 const BASE_URL = "http://simonrodriguez.lat/";
 const HEAD = "src/include/head.php";
 const FOOTER = "src/include/footer.php";

@@ -1,35 +1,4 @@
     
-    <!-- subscribe start -->
-    <div class="subscribe-area">
-        <div class="container">
-            <div class="subscribe-box">
-                <div class="row">
-                    <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-12">
-                        <div class="row justify-content-between">
-                            <div class="col-xl-6 col-lg-7 col-md-8">
-                                <div class="subscribe-text">
-                                    <h1>Subscribe</h1>
-                                    <span>Enter your email and get latest updates and offers subscribe us</span>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-5 col-md-4 justify-content-end">
-                                <div class="email-submit-form">
-                                    <div class="subscribe-form">
-                                        <form action="#">
-                                            <input placeholder="Enter your email" type="email">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- subscribe end -->
-    <!-- footer start -->
     <footer id="Contact">
         <div class="footer-area primary-bg pt-150">
             <div class="container">
@@ -38,7 +7,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="footer-widget mb-30">
                                 <div class="footer-logo">
-                                    <img src="img/logo/logo_2.png" alt="">
+                                    <img src="img/logo.png" alt="" style="width:60px">
                                 </div>
                                 <div class="footer-para">
                                     <p>Sorem ipsum dolor sit amet conse ctetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercition ullamco laboris nisi </p>
@@ -71,12 +40,12 @@
                                         <li><a href="#">Consultation</a></li>
                                         <li><a href="#">Team Member</a></li>
                                         <li><a href="#">Our Services</a></li>
-                                        <li><a href="#">About Us</a></li>
+                                        <!--  <li><a href="#">About Us</a></li>
                                         <li><a href="#">Contact Us</a></li>
                                         <li><a href="#">Who we are</a></li>
                                         <li><a href="#">Get a Quote</a></li>
                                         <li><a href="#">Recent Post</a></li>
-                                        <li><a href="#">Who we are</a></li>
+                                        <li><a href="#">Who we are</a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -157,29 +126,17 @@
     </footer>
     <!-- footer end -->
 
-    <!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
-    <script src="<?= PLUGINS?>js/modernizr-3.5.0.min.js"></script>
+    <!-- JS here -->
     <script src="<?= PLUGINS ?>js/jquery-1.12.4.min.js"></script>
     <script src="<?= PLUGINS ?>js/popper.min.js"></script>
     <script src="<?= PLUGINS ?>js/bootstrap.min.js"></script>
-    <script src="<?= PLUGINS ?>js/owl.carousel.min.js"></script>
-    <script src="<?= PLUGINS ?>js/isotope.pkgd.min.js"></script>
     <script src="<?= PLUGINS ?>js/one-page-nav-min.js"></script>
-    <script src="<?= PLUGINS ?>js/slick.min.js"></script>
-
-    <script src="<?= PLUGINS ?>js/ajax-form.js"></script>
-
-    <script src="<?= PLUGINS ?>js/wow.min.js"></script>
     <script src="<?= PLUGINS ?>js/jquery.meanmenu.min.js"></script>
-    <script src="<?= PLUGINS ?>js/jquery.scrollUp.min.js"></script>
-    <script src="<?= PLUGINS ?>js/jquery.barfiller.js"></script>
-    <script src="<?= PLUGINS ?>js/imagesloaded.pkgd.min.js"></script>
-    <script src="<?= PLUGINS ?>js/jquery.counterup.min.js"></script>
-    <script src="<?= PLUGINS ?>js/waypoints.min.js"></script>
-    <script src="<?= PLUGINS ?>js/jquery.magnific-popup.min.js"></script>
+    <script src="<?= PLUGINS ?>js/owl.carousel.min.js"></script>
+    <script src="<?= PLUGINS ?>js/slick.min.js"></script>
     <script src="<?= PLUGINS ?>js/plugins.js"></script>
-    
     <script src="<?= PLUGINS ?>js/main.js"></script>
+
 </body>
 
 </html>
