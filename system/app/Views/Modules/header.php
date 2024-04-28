@@ -36,7 +36,7 @@
                             <div class="header-contact-info d-flex">
                                 <div class="header-contact header-contact-phone">
                                     <span class="ti-headphone"></span>
-                                    <p class="phone-number">+58123456789</p>
+                                    <p class="phone-number">+58 123456789</p>
                                 </div>
                                 <div class="header-contact header-contact-email">
                                     <span class="ti-email"></span>
@@ -82,10 +82,10 @@
                                             <a href="#about">acerca</a>
                                         </li>
                                         <li>
-                                            <a href="#formacion">Formacion</a>
+                                            <a href="#">Formacion</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>">CARRERAS EN CURSO</a>
+                                                    <a href="<?= base_url()?>pages/plantilla">CARRERAS EN CURSO</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -93,10 +93,10 @@
                                             <a href="#incripcion">inscripcion</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>">proceso de inscripcion</a>
+                                                    <a href="<?= base_url()?>pages/plantilla">proceso de inscripcion</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>">periodod academicos</a>
+                                                    <a href="<?= base_url()?>pages/plantilla">periodod academicos</a>
                                                 </li>
                                                 
                                             </ul>
@@ -105,18 +105,18 @@
                                             <a href="#convenio">convenio</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>">institucionales</a>
+                                                    <a href="<?= base_url()?>pages/plantilla">institucionales</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>">UNERS INCES</a>
+                                                    <a href="<?= base_url()?>pages/plantilla">UNERS INCES</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url()?>">EQUIPO</a>
+                                            <a href="<?= base_url()?>pages/plantilla">EQUIPO</a>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url()?>contact">CONTACT</a>
+                                            <a href="<?= base_url()?>pages/plantilla">CONTACT</a>
                                         </li>
                                     </ul>
                                 </nav>

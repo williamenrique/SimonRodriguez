@@ -1,19 +1,50 @@
-    
+        <!-- subscribe start -->
+    <div class="subscribe-area">
+        <div class="container">
+            <div class="subscribe-box">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-12">
+                        <div class="row justify-content-between">
+                            <div class="col-xl-6 col-lg-7 col-md-8">
+                                <div class="subscribe-text">
+                                    <h1>Subscribe</h1>
+                                    <span>Enter your email and get latest updates and offers subscribe us</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-5 col-md-4 justify-content-end">
+                                <div class="email-submit-form">
+                                    <div class="subscribe-form">
+                                        <form action="#">
+                                            <input placeholder="Enter your email" type="email">
+                                            <i class="fas fa-long-arrow-alt-right"></i>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- subscribe end -->
     <footer id="Contact">
         <div class="footer-area primary-bg pt-150">
             <div class="container">
                 <div class="footer-top pb-35">
                     <div class="row">
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-xl-6 col-lg-4 col-md-6">
                             <div class="footer-widget mb-30">
                                 <div class="footer-logo">
-                                    <img src="img/logo.png" alt="" style="width:60px">
+                                    <img src="<?= IMG ?>logo.png" alt="" style="width:60px">
                                 </div>
                                 <div class="footer-para">
-                                    <p>Sorem ipsum dolor sit amet conse ctetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercition ullamco laboris nisi </p>
+                                    <p>
+                                    A lo largo de su vida, Simón Rodríguez enfrentó numerosas dificultades y persecuciones debido a sus ideas revolucionarias. Sin embargo, su legado perdura hasta hoy como uno de los pilares fundamentales en la construcción de la identidad latinoamericana y en la lucha por la justicia social y la igualdad.
+                                    </p>
                                 </div>
                                 <div class="footer-socila-icon">
-                                    <span>Follow Us</span>
+                                    <span>Sigannos</span>
                                     <div class="footer-social-icon-list">
                                         <ul>
                                             <li><a href="#"><span class="ti-facebook"></span></a></li>
@@ -27,7 +58,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <!-- <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="footer-widget mb-30">
                                 <div class="footer-heading">
                                     <h1>Quick Links</h1>
@@ -40,12 +71,6 @@
                                         <li><a href="#">Consultation</a></li>
                                         <li><a href="#">Team Member</a></li>
                                         <li><a href="#">Our Services</a></li>
-                                        <!--  <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Who we are</a></li>
-                                        <li><a href="#">Get a Quote</a></li>
-                                        <li><a href="#">Recent Post</a></li>
-                                        <li><a href="#">Who we are</a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -53,7 +78,7 @@
                         <div class="col-xl-3 col-lg-4 d-lg-none d-xl-block col-md-6">
                             <div class="footer-widget mb-30">
                                 <div class="footer-heading">
-                                    <h1>Recent Post</h1>
+                                    <h1>Post Recientes</h1>
                                 </div>
                                 <div class="recent-post d-flex mb-25">
                                     <div class="recent-post-thumb">
@@ -80,30 +105,32 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4  col-md-6">
+                        </div> -->
+                        <div class="col-xl-6 col-lg-4  col-md-6">
                             <div class="footer-widget mb-30">
                                 <div class="footer-heading">
-                                    <h1>Contact Us</h1>
+                                    <h1>Contactanos</h1>
                                 </div>
                                 <div class="footer-contact-list">
                                     <div class="single-footer-contact-info">
                                         <span class="ti-headphone "></span>
-                                        <span class="footer-contact-list-text">+003 (1234) 7894</span>
+                                        <span class="footer-contact-list-text">+58 (0254) 1234567</span>
                                     </div>
                                     <div class="single-footer-contact-info">
                                         <span class="ti-email "></span>
-                                        <span class="footer-contact-list-text"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4a33253f382f272b23260a2d272b232664292527">[email&#160;protected]</a></span>
+                                        <span class="footer-contact-list-text">
+                                            <a href="#" >email@gmail.com</a>
+                                        </span>
                                     </div>
                                     <div class="single-footer-contact-info">
                                         <span class="ti-location-pin"></span>
-                                        <span class="footer-contact-list-text">123 New Street, 6th Floor, New York</span>
+                                        <span class="footer-contact-list-text">Zona industrial Agustín Rivero, Edif. CIEPE, Piso 1, San Felipe 3201, Yaracuy</span>
                                     </div>
                                 </div>
                                 <div class="opening-time">
-                                    <span>Opening Hour</span>
+                                    <span>Horas de estudio</span>
                                     <span class="opening-date">
-                                        Sun - Sat : 10:00 am - 05:00 pm
+                                        Lunes - Viernes : 08:00 am - 05:00 pm
                                     </span>
                                 </div>
                             </div>
@@ -115,7 +142,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="footer-copyright text-center">
-                                    <span>Copyright © 2018. All rights reserved</span>
+                                    <span>Copyright © 2024. All rights reserved</span>
                                 </div>
                             </div>
                         </div>

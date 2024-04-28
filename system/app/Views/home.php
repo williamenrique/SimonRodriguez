@@ -1,5 +1,5 @@
 <?= head($data)?>
-<!-- slider-start -->
+    <!-- slider-start -->
     <div class="slider-area pos-relative">
         <div class="slider-active">
             <div class="single-slider slider-height d-flex align-items-center justify-content-center" style="background-image: url(<?= IMG ?>bg/bg.jpg);">
@@ -25,9 +25,15 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="about-title-section mb-30">
                         <h1>Bienvenido a la UNESR</h1>
-                        <p>Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod temin cididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci tation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure repreh nderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occcu idatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Horem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod temin cididunt ut labore et dolore magna aliqua Ut enim ad minim veniam,quis nostrude</p>
-                        <button class="btn yellow-bg-btn" data-animation="fadeInUp" data-delay=".6s">ingresar</button>
+                        <p class="text-justify">
+                            La extensión de la Universidad Simón Rodríguez en San Felipe, estado Yaracuy, fue creada con el objetivo de brindar oportunidades de formación académica a los habitantes de la región y contribuir al desarrollo educativo y social de la comunidad.
+                            La historia de la creación de esta extensión se remonta a la década de los 90, cuando se comenzó a gestar la idea de establecer un centro de estudios superiores en San Felipe que pudiera atender las necesidades educativas de la población local. Tras varios años de planificación y gestiones, finalmente en el año XXXX se logró la apertura oficial de la extensión de la Universidad Simón Rodríguez en la ciudad.
+                            Desde entonces, la extensión ha ofrecido una amplia gama de programas académicos en diversas áreas del conocimiento, permitiendo a los estudiantes de la región acceder a una educación universitaria de calidad sin tener que desplazarse a otras ciudades. Además, ha contribuido al fortalecimiento del tejido educativo y cultural de San Felipe y sus alrededores, promoviendo el desarrollo integral de la comunidad.
+                        </p>
+                        <p class="text-justify">
+                            En resumen, la creación de la extensión de la Universidad Simón Rodríguez en San Felipe, estado Yaracuy, ha sido un importante hito en la historia educativa de la región, brindando oportunidades de formación académica y contribuyendo al progreso social y cultural de sus habitantes.
+                        </p>
+                        <a href="<?= base_url()?>pages/acerca" class="btn yellow-bg-btn" data-animation="fadeInUp" data-delay=".6s">saber más</a>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5">
@@ -51,7 +57,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="feature-wrapper mb-30">
                         <div class="feature-title-heading">
-                            <h3>Asesorias especializadas</h3>
+                            <h3>Asesorias </h3>
                             <span>02</span>
                         </div>
                         <div class="feature-text">
@@ -359,34 +365,5 @@
         </div>
     </div>
     <!-- testimonials end -->
-    <!-- subscribe start -->
-    <div class="subscribe-area">
-        <div class="container">
-            <div class="subscribe-box">
-                <div class="row">
-                    <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-12">
-                        <div class="row justify-content-between">
-                            <div class="col-xl-6 col-lg-7 col-md-8">
-                                <div class="subscribe-text">
-                                    <h1>Subscribe</h1>
-                                    <span>Enter your email and get latest updates and offers subscribe us</span>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-5 col-md-4 justify-content-end">
-                                <div class="email-submit-form">
-                                    <div class="subscribe-form">
-                                        <form action="#">
-                                            <input placeholder="Enter your email" type="email">
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- subscribe end -->
+
 <?= footer($data)?>
