@@ -24,16 +24,4 @@ class Home extends Controllers{
 		// $data['page_functions'] = "function.enUso.js";
 		$this->views->getViews($this, "home", $data);
 	}
-
-	//prueba de insertar
-	public function insertar(){
-		$data = $this->model->setUser('Juan',25);
-		print_r($data);
-	}
-
-	//ejemplo metodo metodo ver usuario
-	// public function verUsuario($id){
-	// 	$data = $this->model->getUser($id);
-	// 	print_r($data);
-	// }
 }

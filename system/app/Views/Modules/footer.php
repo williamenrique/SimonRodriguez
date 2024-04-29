@@ -7,15 +7,15 @@
                         <div class="row justify-content-between">
                             <div class="col-xl-6 col-lg-7 col-md-8">
                                 <div class="subscribe-text">
-                                    <h1>Subscribe</h1>
-                                    <span>Enter your email and get latest updates and offers subscribe us</span>
+                                    <h1>Subscribete</h1>
+                                    <span>Coloca tu correo y recibiras ultimas noticias</span>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-5 col-md-4 justify-content-end">
                                 <div class="email-submit-form">
                                     <div class="subscribe-form">
                                         <form action="#">
-                                            <input placeholder="Enter your email" type="email">
+                                            <input placeholder="Coloca tu email" type="email">
                                             <i class="fas fa-long-arrow-alt-right"></i>
                                         </form>
                                     </div>
@@ -35,13 +35,26 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-4 col-md-6">
                             <div class="footer-widget mb-30">
-                                <div class="footer-logo">
+                                <div class="footer-logo d-flex">
                                     <img src="<?= IMG ?>logo.png" alt="" style="width:60px">
+                                    <span class="ml-2 text-white" style="font-size: 40px">UNESR</span>
                                 </div>
                                 <div class="footer-para">
-                                    <p>
-                                    A lo largo de su vida, Simón Rodríguez enfrentó numerosas dificultades y persecuciones debido a sus ideas revolucionarias. Sin embargo, su legado perdura hasta hoy como uno de los pilares fundamentales en la construcción de la identidad latinoamericana y en la lucha por la justicia social y la igualdad.
-                                    </p>
+                                    <ul class="text-white" style="font-size: 14px">
+                                        <li style="list-style: auto;">
+                                        Tiene como visión ser una Institución global de vocación, integracionista y latinoamericana, abierta a los cambios. Flexible innovadora, andragogica y de excelencia, que
+                                        promueva y practique la libertad de pensamiento y acción, fomente la participación y la
+                                        profundización de los valores éticos democráticos, que permanezcan en la
+                                        búsqueda constante del desarrollo sostenido y armonioso de la sociedad y el
+                                        individuo y este profundamente comprometido con el desarrollo de la comunidad.
+                                        </li>
+                                        <li style="list-style: auto;">
+                                            Tiene como misión fundamental la búsqueda, generación, aplicación y difusión del conocimiento y al afianzamiento de los valores transcendentales del hombre y la sociedad
+                                        </li>
+                                        <li style="list-style: auto;">
+                                            Contribuir con el desarrollo económico y social de la región Sur del Lago y fomentar la defensa, protección y recuperación del medio ambiente, mediante actividades especiales de conservación ecológica. Auspiciar y realizar estudios sobre la realidad de la frontera y promover la integración binacional.
+                                        </li>
+                                    </ul>
                                 </div>
                                 <div class="footer-socila-icon">
                                     <span>Sigannos</span>

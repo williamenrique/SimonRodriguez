@@ -27,7 +27,7 @@ const LOAD = BASE_URL."system/core/Libraries/Load.php";
 const DB_HOST = "localhost";
 const DB_USER = "root";
 const DB_PASS = "";
-const DB_NAME = "db_busyaracuy";
+const DB_NAME = "db_unesr";
 const DB_CHARSET = "charset=utf8";
 
 //delimitador decimal y millar Ej. 24,1999.00
@@ -39,3 +39,7 @@ const SMONEY = '$';
 define('METHOD','AES-256-CBC');
 define('SECRET_KEY','$3nt0rn0');
 define('SECRET_IV','101712');
+
+const TLF = '+58 1234567';
+const EMAIL = 'email@gmail.com';
+const DIRECCION = 'Zona industrial Agustín Rivero, Edif. CIEPE, Piso 1, San Felipe 3201, Yaracuy';

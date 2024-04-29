@@ -1,5 +1,5 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!doctype >
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -72,7 +72,8 @@
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-6 col-6">
                             
-                            <div class="main-menu f-right">
+                            <div class="main-menu">
+                            <!-- <div class="main-menu f-right"> -->
                                 <nav id="mobile-menu" style="display: block;">
                                     <ul>
                                         <li>
@@ -85,7 +86,7 @@
                                             <a href="#">Formacion</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>pages/plantilla">CARRERAS EN CURSO</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">CARRERAS EN CURSO</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -93,30 +94,38 @@
                                             <a href="#incripcion">inscripcion</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>pages/plantilla">proceso de inscripcion</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">proceso de inscripcion</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>pages/plantilla">periodod academicos</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">periodod academicos</a>
                                                 </li>
                                                 
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#convenio">convenio</a>
+                                            <a href="#">convenio</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>pages/plantilla">institucionales</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">institucionales</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>pages/plantilla">UNERS INCES</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">UNERS INCES</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url()?>pages/plantilla">EQUIPO</a>
+                                            <a href="<?= base_url()?>sitio/plantilla">EQUIPO</a>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url()?>pages/plantilla">CONTACT</a>
+                                            <a href="#">CONTACTO</a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="<?= base_url()?>sitio/contacto">Contactanos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="<?= base_url()?>sitio/pregunta">Preguntas</a>
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </nav>
