@@ -1,6 +1,6 @@
 <?php
 // const BASE_URL = "https://pruebassistemas1.000webhostapp.com/";
-const BASE_URL = "http://simonrodriguez.lat/";
+const BASE_URL = "http://unesr.lat/";
 const HEAD = "src/include/head.php";
 const FOOTER = "src/include/footer.php";
 //const BACK_URL = $_SERVER['REQUEST_URI'];

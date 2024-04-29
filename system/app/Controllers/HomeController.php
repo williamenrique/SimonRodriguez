@@ -1,4 +1,5 @@
 <?php
+
 header('Access-Control-Allow-Origin: *');
 class Home extends Controllers{
 	public function __construct(){
@@ -22,6 +23,7 @@ class Home extends Controllers{
 		// $data['page_link_acitvo'] = "link-user";
 
 		// $data['page_functions'] = "function.enUso.js";
+		// list($instituto,$direccion) = dataUnesr();
 		$this->views->getViews($this, "home", $data);
 	}
 }

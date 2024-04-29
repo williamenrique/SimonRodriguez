@@ -1238,7 +1238,7 @@ li.shopping-cart a {
 
     visibility: hidden;
 
-    width: 250px;
+    /* width: 250px; */
 
     z-index: 9;
 

@@ -4,17 +4,19 @@ class Sitio extends Controllers{
 	public function __construct(){
 		// session_start();
 		// if (empty($_SESSION['login'])) {
-		// 	header("Location:".base_url().'home');
-		// }
-		//invocar para que se ejecute el metodo de la herencia
-		parent::__construct();
-	}
-	public function acerca(){
+			// 	header("Location:".base_url().'home');
+			// }
+			//invocar para que se ejecute el metodo de la herencia
+			parent::__construct();
+		}
+		
+		public function acerca(){
+		
 		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
 		//incluimos un arreglo que contendra toda la informacion que se enviara al home
 		$data['page_tag'] = "TITULO DE PAGINA";
 		$data['page_title'] = "UNESR";
-		$data['page_name'] = "acerca";
+		$data['page_name'] = IMG;
 		// uso para activar los link en los enlaces
 		// $data['page_menu'] = "usuarios";
 		// $data['page_link'] = "usuarios";

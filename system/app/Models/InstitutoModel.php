@@ -10,6 +10,7 @@ class InstitutoModel extends Mysql {
 	public function getInst(){
 		$sql = "SELECT * FROM table_instituto";
 		$request = $this->select($sql);
+		$_ENV['userData'] = $request;
 		return $request;
 	}
 }
