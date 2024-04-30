@@ -34,11 +34,11 @@
                             <div class="header-contact-info d-flex">
                                 <div class="header-contact header-contact-phone">
                                     <span class="ti-headphone"></span>
-                                    <p class="phone-number">+58 123456789</p>
+                                    <p class="phone-number"><?= $data['tlf_instituto'] ?></p>
                                 </div>
                                 <div class="header-contact header-contact-email">
                                     <span class="ti-email"></span>
-                                    <p class="email-name white-text"><a href="#" >email@gmail.com</a></p>
+                                    <p class="email-name white-text"><a href="#" ><?= $data['email_instituto'] ?></a></p>
                                 </div>
                             </div>
                         </div>

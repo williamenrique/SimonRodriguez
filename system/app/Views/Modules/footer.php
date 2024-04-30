@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="footer-top pb-35">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-4 col-md-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="footer-widget mb-30">
                                 <div class="footer-logo d-flex">
                                     <img src="<?= IMG ?>logo.png" alt="" style="width:60px">
@@ -127,17 +127,17 @@
                                 <div class="footer-contact-list">
                                     <div class="single-footer-contact-info">
                                         <span class="ti-headphone "></span>
-                                        <span class="footer-contact-list-text">+58 (0254) 1234567</span>
+                                        <span class="footer-contact-list-text"><?= $data['tlf_instituto']?></span>
                                     </div>
                                     <div class="single-footer-contact-info">
                                         <span class="ti-email "></span>
                                         <span class="footer-contact-list-text">
-                                            <a href="#" >email@gmail.com</a>
+                                            <a href="#" ><?= $data['email_instituto']?></a>
                                         </span>
                                     </div>
                                     <div class="single-footer-contact-info">
                                         <span class="ti-location-pin"></span>
-                                        <span class="footer-contact-list-text">Zona industrial Agustín Rivero, Edif. CIEPE, Piso 1, San Felipe 3201, Yaracuy</span>
+                                        <span class="footer-contact-list-text"><?= $data['direccion_instituto']?></span>
                                     </div>
                                 </div>
                                 <div class="opening-time">
@@ -167,6 +167,7 @@
     <!-- footer end -->
 
     <!-- JS here -->
+    <script>const base_url = "<?= base_url()?>";</script>
     <script src="<?= PLUGINS ?>js/jquery-1.12.4.min.js"></script>
     <script src="<?= PLUGINS ?>js/popper.min.js"></script>
     <script src="<?= PLUGINS ?>js/bootstrap.min.js"></script>
@@ -176,6 +177,7 @@
     <script src="<?= PLUGINS ?>js/slick.min.js"></script>
     <script src="<?= PLUGINS ?>js/plugins.js"></script>
     <script src="<?= PLUGINS ?>js/main.js"></script>
+    <script src="<?= JS.$data['page_functions'] ?>"></script>
 
 </body>
 
