@@ -25,7 +25,6 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="about-title-section mb-30">
                         <h1>Bienvenido a la UNESR</h1>
-                        <?= dep($_ENV['userData'])?>
                         <p class="text-justify">
                             La extensión de la Universidad Simón Rodríguez en San Felipe, estado Yaracuy, fue creada con el objetivo de brindar oportunidades de formación académica a los habitantes de la región y contribuir al desarrollo educativo y social de la comunidad.
                             La historia de la creación de esta extensión se remonta a la década de los 90, cuando se comenzó a gestar la idea de establecer un centro de estudios superiores en San Felipe que pudiera atender las necesidades educativas de la población local. Tras varios años de planificación y gestiones, finalmente en el año XXXX se logró la apertura oficial de la extensión de la Universidad Simón Rodríguez en la ciudad.
@@ -34,7 +33,7 @@
                         <p class="text-justify">
                             En resumen, la creación de la extensión de la Universidad Simón Rodríguez en San Felipe, estado Yaracuy, ha sido un importante hito en la historia educativa de la región, brindando oportunidades de formación académica y contribuyendo al progreso social y cultural de sus habitantes.
                         </p>
-                        <a href="<?= base_url()?>pages/acerca" class="btn yellow-bg-btn" data-animation="fadeInUp" data-delay=".6s">saber más</a>
+                        <a href="<?= base_url()?>sitio/acerca" class="btn yellow-bg-btn" data-animation="fadeInUp" data-delay=".6s">saber más</a>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5">

@@ -27,11 +27,27 @@
     <!-- about start -->
     <div id="about" class="about-area pt-100 pb-70">
         <div class="container">
+            
             <div class="row">
                 <div class="col-xl-7 col-lg-7">
-                    <!-- <div class="about-img mb-55">
-                        <img src="img/about/about_details_left_img.jpg" alt="">
-                    </div> -->
+                    <div class="about-title-section mb-30">
+                        <h1>Bienvenido a la UNESR</h1>
+                        <p class="text-justify">
+                            La extensión de la Universidad Simón Rodríguez en San Felipe, estado Yaracuy, fue creada con el objetivo de brindar oportunidades de formación académica a los habitantes de la región y contribuir al desarrollo educativo y social de la comunidad.
+                            La historia de la creación de esta extensión se remonta a la década de los 90, cuando se comenzó a gestar la idea de establecer un centro de estudios superiores en San Felipe que pudiera atender las necesidades educativas de la población local. Tras varios años de planificación y gestiones, finalmente en el año XXXX se logró la apertura oficial de la extensión de la Universidad Simón Rodríguez en la ciudad.
+                            Desde entonces, la extensión ha ofrecido una amplia gama de programas académicos en diversas áreas del conocimiento, permitiendo a los estudiantes de la región acceder a una educación universitaria de calidad sin tener que desplazarse a otras ciudades. Además, ha contribuido al fortalecimiento del tejido educativo y cultural de San Felipe y sus alrededores, promoviendo el desarrollo integral de la comunidad.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5">
+                    <div class="about-right-img mb-30">
+                        <img src="<?= IMG ?>acerca/felixadam.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-7 col-lg-7">
                     <div class="about-title-section about-title-section-2 mb-30">
                         <h1>Quien fue Simón Rodriguez</h1>
                         <p class="text-justify">
@@ -48,9 +64,6 @@
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5">
-                    <!-- <div class="about-img mb-55">
-                        <img src="img/about/about_details_right_img.jpg" alt="">
-                    </div> -->
                     <div class="about-title-section about-title-section-2 mb-30">
                         <h1>La Universidad</h1>
                         <p class="text-justify">
@@ -68,9 +81,6 @@
 
             <div class="row">
                 <div class="col-xl-7 col-lg-7">
-                    <!-- <div class="about-img mb-55">
-                        <img src="img/about/about_details_left_img.jpg" alt="">
-                    </div> -->
                     <div class="about-title-section about-title-section-2 mb-30">
                         <h1>Núcleo de la UNESR Lara</h1>
                         <p class="text-justify">
@@ -86,9 +96,6 @@
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5">
-                    <!-- <div class="about-img mb-55">
-                        <img src="img/about/about_details_right_img.jpg" alt="">
-                    </div> -->
                     <div class="about-title-section about-title-section-2 mb-30">
                         <h1>UNESR extensión San Felipe</h1>
                         <p class="text-justify">

@@ -22,8 +22,6 @@
     <link rel="stylesheet" href="<?= PLUGINS ?>css/responsive.css">
     <link rel="stylesheet" href="<?= PLUGINS ?>css/meanmenu.css">
 </head>
-
-
 <body>
     <!-- header-start -->
     <header id="home">

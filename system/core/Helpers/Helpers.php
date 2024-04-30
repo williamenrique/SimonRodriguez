@@ -70,9 +70,8 @@ function setTimeline(int $intIdUser, string $strCodigo, string $strFecha, string
 function dataUnesr(){
 	require_once ("system/app/Models/InstitutoModel.php");
 	$dataUners = new InstitutoModel();
-	$request = $dataUners->getInst();
-	$_ENV['userData'] = $request;
-	return  json_encode($_ENV['userData']);
+	$data = $dataUners->getInst();
+	return  json_decode($data, true);
 }
 
 function strClean($srtCadena){

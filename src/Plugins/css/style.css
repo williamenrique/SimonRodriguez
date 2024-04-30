@@ -1238,7 +1238,7 @@ li.shopping-cart a {
 
     visibility: hidden;
 
-    width: 250px;
+    width: 150px;
 
     z-index: 9;
 
@@ -3257,8 +3257,6 @@ span.student-lecture-number {
 .adivisor-text-title-2 h4 {
 
     font-size: 30px;
-
-    line-height: ;
 
 }
 
