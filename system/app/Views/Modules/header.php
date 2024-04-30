@@ -1,9 +1,8 @@
-<!doctype >
-<html>
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>UNESR</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,7 +77,7 @@
                                             <a href="<?= base_url()?>">Inicio</a>
                                         </li>
                                         <li>
-                                            <a href="#about">acerca</a>
+                                            <a href="<?= base_url()?>sitio/acerca">acerca</a>
                                         </li>
                                         <li>
                                             <a href="#">Formacion</a>

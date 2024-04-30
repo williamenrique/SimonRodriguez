@@ -31,11 +31,10 @@
             <div class="row">
                 <div class="col-xl-7 col-lg-7">
                     <div class="about-title-section mb-30">
-                        <h1>Bienvenido a la UNESR</h1>
+                        <h1>Dr. Félix Admas</h1>
                         <p class="text-justify">
-                            La extensión de la Universidad Simón Rodríguez en San Felipe, estado Yaracuy, fue creada con el objetivo de brindar oportunidades de formación académica a los habitantes de la región y contribuir al desarrollo educativo y social de la comunidad.
-                            La historia de la creación de esta extensión se remonta a la década de los 90, cuando se comenzó a gestar la idea de establecer un centro de estudios superiores en San Felipe que pudiera atender las necesidades educativas de la población local. Tras varios años de planificación y gestiones, finalmente en el año XXXX se logró la apertura oficial de la extensión de la Universidad Simón Rodríguez en la ciudad.
-                            Desde entonces, la extensión ha ofrecido una amplia gama de programas académicos en diversas áreas del conocimiento, permitiendo a los estudiantes de la región acceder a una educación universitaria de calidad sin tener que desplazarse a otras ciudades. Además, ha contribuido al fortalecimiento del tejido educativo y cultural de San Felipe y sus alrededores, promoviendo el desarrollo integral de la comunidad.
+                            El Toro (Edo. Delta Amacuro) 24.12.1921, fallecimiento:Caracas 31.1.1991 
+                            Electo decano de la Facultad de Humanidades y Educación (1972-1975), donde fundó los estudios universitarios a distancia. Entre 1975 y 1982 fue rector de la Universidad Simón Rodríguez, a la que aportó sus ideas sobre educación con enfoque andragógico
                         </p>
                     </div>
                 </div>

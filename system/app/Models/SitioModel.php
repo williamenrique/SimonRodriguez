@@ -1,5 +1,5 @@
 <?php
-class InstitutoModel extends Mysql {
+class SitioModel extends Mysql {
         public function __construct(){
 		parent::__construct();
 	}

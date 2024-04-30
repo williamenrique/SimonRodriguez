@@ -24,6 +24,10 @@ class Sitio extends Controllers{
 		// $data['page_link_acitvo'] = "link-user";
 
 		// $data['page_functions'] = "function.enUso.js";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] =$arrData['tlf_instituto'];
+		$data['email_instituto'] =$arrData['email_instituto'];
+		$data['direccion_instituto'] =$arrData['direccion_instituto'];
 		$this->views->getViews($this, "acerca", $data);
 	}
     public function contacto(){
@@ -32,6 +36,10 @@ class Sitio extends Controllers{
 		$data['page_tag'] = "TITULO DE PAGINA";
 		$data['page_title'] = "UNESR";
 		$data['page_name'] = "contacto";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] =$arrData['tlf_instituto'];
+		$data['email_instituto'] =$arrData['email_instituto'];
+		$data['direccion_instituto'] =$arrData['direccion_instituto'];
 		$this->views->getViews($this, "contacto", $data);
 	}
 
@@ -41,6 +49,10 @@ class Sitio extends Controllers{
 		$data['page_tag'] = "TITULO DE PAGINA";
 		$data['page_title'] = "UNESR";
 		$data['page_name'] = "pregunta";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] =$arrData['tlf_instituto'];
+		$data['email_instituto'] =$arrData['email_instituto'];
+		$data['direccion_instituto'] =$arrData['direccion_instituto'];
 		$this->views->getViews($this, "pregunta", $data);
 	}
 	public function plantilla(){
@@ -49,6 +61,10 @@ class Sitio extends Controllers{
 		$data['page_tag'] = "TITULO DE PAGINA";
 		$data['page_title'] = "UNESR";
 		$data['page_name'] = "plantilla";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] =$arrData['tlf_instituto'];
+		$data['email_instituto'] =$arrData['email_instituto'];
+		$data['direccion_instituto'] =$arrData['direccion_instituto'];
 		$this->views->getViews($this, "plantilla", $data);
 	}
 }

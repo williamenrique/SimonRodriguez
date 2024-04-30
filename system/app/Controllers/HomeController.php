@@ -21,9 +21,7 @@ class Home extends Controllers{
 		// $data['page_link'] = "usuarios";
 		// $data['page_menu_open'] = "user-menu";
 		// $data['page_link_acitvo'] = "link-user";
-
 		$data['page_functions'] = "function.home.js";
-		// list($instituto,$direccion) = dataUnesr();
 		$arrData = $this->model->getInst();
 		$data['tlf_instituto'] =$arrData['tlf_instituto'];
 		$data['email_instituto'] =$arrData['email_instituto'];
