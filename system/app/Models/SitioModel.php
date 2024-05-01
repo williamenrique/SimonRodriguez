@@ -5,13 +5,16 @@ class SitioModel extends Mysql {
 	}
 
     /*********************
-	 * funcion de cargar usuario de la DB
+	 * funcion de cargar data de la DB
 	 *********************/
 	public function getInst(){
 		$sql = "SELECT * FROM table_instituto";
 		$request = $this->select($sql);
-		$_ENV['userData'] = $request;
-		
+		return $request;
+	}
+	public function getFaq(){
+		$sql = "SELECT * FROM table_preguntas";
+		$request = $this->select_all($sql);
 		return $request;
 	}
 }

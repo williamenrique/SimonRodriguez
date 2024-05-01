@@ -12,7 +12,8 @@
     <!-- CSS here -->
     <link rel="stylesheet" href="<?= PLUGINS ?>css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= PLUGINS ?>css/animate.min.css">
-    <link rel="stylesheet" href="<?= PLUGINS ?>css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="stylesheet" href="<?= PLUGINS ?>css/fontawesome-all.min.css"> -->
     <link rel="stylesheet" href="<?= PLUGINS ?>css/themify-icons.css">
     <link rel="stylesheet" href="<?= PLUGINS ?>css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?= PLUGINS ?>css/slick.css">
@@ -37,7 +38,7 @@
                                 </div>
                                 <div class="header-contact header-contact-email">
                                     <span class="ti-email"></span>
-                                    <p class="email-name white-text"><a href="#" ><?= $data['email_instituto'] ?></a></p>
+                                    <p class="email-name white-text"><a href="#" class="text-white"><?= $data['email_instituto'] ?></a></p>
                                 </div>
                             </div>
                         </div>
@@ -68,9 +69,7 @@
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-6 col-6">
-                            
-                            <div class="main-menu">
-                            <!-- <div class="main-menu f-right"> -->
+                            <div class="main-menu f-right">
                                 <nav id="mobile-menu" style="display: block;">
                                     <ul>
                                         <li>
@@ -94,7 +93,7 @@
                                                     <a href="<?= base_url()?>sitio/plantilla">proceso de inscripcion</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">periodod academicos</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">periodos academicos</a>
                                                 </li>
                                                 
                                             </ul>
@@ -120,7 +119,7 @@
                                                     <a href="<?= base_url()?>sitio/contacto">Contactanos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/pregunta">Preguntas</a>
+                                                    <a href="<?= base_url()?>sitio/pregunta">información</a>
                                                 </li>
                                             </ul>
                                         </li>

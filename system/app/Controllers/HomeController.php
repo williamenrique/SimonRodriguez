@@ -10,6 +10,7 @@ class Home extends Controllers{
 		//invocar para que se ejecute el metodo de la herencia
 		parent::__construct();
 	}
+	/****************TODO: VISTA ******************/
 	public function home(){
 		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
 		//incluimos un arreglo que contendra toda la informacion que se enviara al home

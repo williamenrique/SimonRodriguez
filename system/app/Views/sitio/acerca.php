@@ -33,7 +33,7 @@
                     <div class="about-title-section mb-30">
                         <h1>Dr. Félix Admas</h1>
                         <p class="text-justify">
-                            El Toro (Edo. Delta Amacuro) 24.12.1921, fallecimiento:Caracas 31.1.1991 
+                            El Toro (Edo. Delta Amacuro) 24.12.1921, fallecimiento: Caracas 31.1.1991 
                             Electo decano de la Facultad de Humanidades y Educación (1972-1975), donde fundó los estudios universitarios a distancia. Entre 1975 y 1982 fue rector de la Universidad Simón Rodríguez, a la que aportó sus ideas sobre educación con enfoque andragógico
                         </p>
                     </div>
