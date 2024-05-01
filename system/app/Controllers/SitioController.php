@@ -82,6 +82,86 @@ class Sitio extends Controllers{
 		echo $html;
 		die();
 	}
+	
+	/*********TODO: Vista *****************/
+	public function nosotros(){
+		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
+		//incluimos un arreglo que contendra toda la informacion que se enviara al home
+		$data['page_tag'] = "TITULO DE PAGINA";
+		$data['page_title'] = "UNESR";
+		$data['page_name'] = "plantilla";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] =$arrData['tlf_instituto'];
+		$data['email_instituto'] =$arrData['email_instituto'];
+		$data['direccion_instituto'] =$arrData['direccion_instituto'];
+		$data['page_functions'] = "function.sitio.js";
+		$this->views->getViews($this, "nosotros", $data);
+	}
+	public function getAutoridades(){
+		$html = '';
+		$arrData = $this->model->getAutoridades();
+		$html .= '<div class="row">';
+		if(count($arrData) > 0 ){
+			for ($i=0; $i < count($arrData); $i++) {
+				$html .= '
+						<div class="col-xl-3 col-lg-3 col-md-6">
+							<div class="team-wrapper mb-30">
+								<div class="team-thumbb">
+									<img src="img/team/teammember1.jpg" alt="">
+								</div>
+								
+								<div class="team-teacher-info text-center">
+									<h1>Chase M. Bynum</h1>
+									<h2>English Teacher</h2>
+								</div>
+							</div>
+						</div>
+					';
+			}
+		}else{
+			$html .= '<p class="gray-color text-center" style="width: 100%">No se encontro autoridades</p>';
+		}
+		$html .= '</div>';
+		echo $html;
+		die();
+	}
+	public function getTeam(){
+		$html = '';
+		$arrData = $this->model->getTeam();
+		$html .= '<div class="row">';
+		if(count($arrData) > 0 ){
+			for ($i=0; $i < count($arrData); $i++) {
+				$html .= '
+						<div class="col-xl-3 col-lg-3 col-md-6">
+							<div class="team-wrapper team-wrapper-2 mb-30">
+								<div class="team-thumb">
+									<img src="img/team/teamthumb001.jpg" alt="">
+								</div>
+								<div class="team-social-info text-center">
+									<div class="team-social-icon-list">
+										<ul>
+											<li><a href="#"><span class="ti-facebook"></span></a></li>
+											<li><a href="#"><span class="ti-twitter-alt"></span></a></li>
+											<li><a href="#"><span class="ti-google"></span></a></li>
+											<li><a href="#"><span class="ti-linkedin"></span></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="team-teacher-info team-teacher-info-2 text-center">
+									<h1>Chase M. Bynum</h1>
+									<h2>English Teacher</h2>
+								</div>
+							</div>
+						</div>
+					';
+			}
+		}else{
+			$html .= '<p class="gray-color text-center" style="width: 100%">No se encontro equipo</p>';
+		}
+		$html .= '</div>';
+		echo $html;
+		die();
+	}
 	/*********TODO: Vista *****************/
 	public function plantilla(){
 		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
@@ -93,6 +173,7 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] =$arrData['tlf_instituto'];
 		$data['email_instituto'] =$arrData['email_instituto'];
 		$data['direccion_instituto'] =$arrData['direccion_instituto'];
+		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "plantilla", $data);
 	}
 }

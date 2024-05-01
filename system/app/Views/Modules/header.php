@@ -73,10 +73,10 @@
                                 <nav id="mobile-menu" style="display: block;">
                                     <ul>
                                         <li>
-                                            <a href="<?= base_url()?>">Inicio</a>
+                                            <a href="<?= base_url()?>">INICIO</a>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url()?>sitio/acerca">acerca</a>
+                                            <a href="<?= base_url()?>sitio/acerca">ACERCA</a>
                                         </li>
                                         <li>
                                             <a href="#">Formacion</a>
@@ -87,22 +87,22 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#incripcion">inscripcion</a>
+                                            <a href="#incripcion">INSCRIPCIÓN</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">proceso de inscripcion</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">PROCESO DE INSCRIPCIÓN</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">periodos academicos</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">PERIODOS ACADEMICOS</a>
                                                 </li>
                                                 
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">convenio</a>
+                                            <a href="#">CONVENIO</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">institucionales</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">INSTITUCIONALES</a>
                                                 </li>
                                                 <li>
                                                     <a href="<?= base_url()?>sitio/plantilla">UNERS INCES</a>
@@ -110,13 +110,13 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url()?>sitio/plantilla">EQUIPO</a>
+                                            <a href="<?= base_url()?>sitio/nosotros">NOSOTROS</a>
                                         </li>
                                         <li>
                                             <a href="#">CONTACTO</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/contacto">Contactanos</a>
+                                                    <a href="<?= base_url()?>sitio/contacto">CONTACTANOS</a>
                                                 </li>
                                                 <li>
                                                     <a href="<?= base_url()?>sitio/pregunta">información</a>
