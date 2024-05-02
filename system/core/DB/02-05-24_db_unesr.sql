@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Servidor: localhost:3306
--- Tiempo de generación: 02-05-2024 a las 13:22:14
--- Versión del servidor: 10.5.20-MariaDB
--- Versión de PHP: 7.3.33
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 02-05-2024 a las 23:35:01
+-- Versión del servidor: 10.4.32-MariaDB
+-- Versión de PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `id22106503_bd_unesr`
+-- Base de datos: `db_unesr`
 --
 
 -- --------------------------------------------------------
@@ -29,12 +29,20 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `table_autoridades` (
   `id_autoridad` int(1) NOT NULL,
-  `nombre_autoridad` varchar(20) NOT NULL,
-  `cargo_autoridad` varchar(20) NOT NULL,
+  `nombre_autoridad` varchar(60) NOT NULL,
+  `cargo_autoridad` varchar(60) NOT NULL,
   `img_autoridad` varchar(60) NOT NULL,
   `status_autoridad` int(1) NOT NULL,
   `id_instituto` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `table_autoridades`
+--
+
+INSERT INTO `table_autoridades` (`id_autoridad`, `nombre_autoridad`, `cargo_autoridad`, `img_autoridad`, `status_autoridad`, `id_instituto`) VALUES
+(2, 'Ing Msc Cèsar Montoy', 'Coordinador general ', 'team/cesar.jpg', 1, 1),
+(3, 'Dra Evelyn Medina', 'Docente Ordinario', 'team/evelyn.jpg', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -45,10 +53,10 @@ CREATE TABLE `table_autoridades` (
 CREATE TABLE `table_documentos` (
   `id_documento` int(5) NOT NULL,
   `id_instituto` int(5) NOT NULL,
-  `nombre_documento` varchar(60) CHARACTER SET utf8 COLLATE utf8_spanish_ci NOT NULL,
-  `ruta_documento` varchar(60) CHARACTER SET utf8 COLLATE utf8_spanish_ci NOT NULL,
+  `nombre_documento` varchar(60) NOT NULL,
+  `ruta_documento` varchar(60) NOT NULL,
   `status_documento` int(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
 
@@ -139,7 +147,18 @@ CREATE TABLE `table_pensamiento` (
   `id_instituto` int(1) NOT NULL,
   `pensamiento` text NOT NULL,
   `pagina_instituto` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `table_pensamiento`
+--
+
+INSERT INTO `table_pensamiento` (`id_pensamiento`, `id_instituto`, `pensamiento`, `pagina_instituto`) VALUES
+(1, 1, '\"El que no estudia, cualquiera lo engaña, y el que no tiene cualquiera lo compra\"', 'home'),
+(2, 1, '\"Sólo la educación impone obligaciones a la voluntad. Estas obligaciones son las que llamamos hábitos.\"', 'captacion'),
+(3, 1, '\"Enseñar es hacer comprender; es emplear el entendimiento; no hacer trabajar la memoria\"', 'contacto'),
+(4, 1, '\"Enseñen, y tendrán quien sepa; eduquen, y tendrán quien haga.\"', 'pregunta'),
+(5, 1, '\"Toca a los maestros hacer conocer a los niños el valor del trabajo, para que sepan apreciar el valor de las cosas.\"', 'nosotros');
 
 -- --------------------------------------------------------
 
@@ -255,7 +274,7 @@ ALTER TABLE `table_testimonio`
 -- AUTO_INCREMENT de la tabla `table_autoridades`
 --
 ALTER TABLE `table_autoridades`
-  MODIFY `id_autoridad` int(1) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_autoridad` int(1) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `table_documentos`
@@ -285,7 +304,7 @@ ALTER TABLE `table_instituto`
 -- AUTO_INCREMENT de la tabla `table_pensamiento`
 --
 ALTER TABLE `table_pensamiento`
-  MODIFY `id_pensamiento` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_pensamiento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de la tabla `table_testimonio`

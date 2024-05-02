@@ -8,9 +8,7 @@
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
                                 <h2 class="white-color f-700">En proceso</h2>
-                                <p class="text-white">
-                                    "Toca a los maestros hacer conocer a los niños el valor del trabajo, para que sepan apreciar el valor de las cosas."
-                                </p>
+                                <p class="text-white"><?= $data['pensamiento'] ?></p>
                             </div>
                         </div>
                     </div>

@@ -12,6 +12,13 @@ class SitioModel extends Mysql {
 		$request = $this->select($sql);
 		return $request;
 	}
+	// TODO: cargar pensamientos
+	public function getPensamiento(string $srtPagina){
+		$this->srtPagina = $srtPagina;
+		$sql = "SELECT * FROM table_pensamiento WHERE pagina_instituto = '$this->srtPagina'";
+		$request = $this->select($sql);
+		return $request;
+	}
 	// TODO: mostrar preguntas de informacion
 	public function getFaq(){
 		$sql = "SELECT * FROM table_preguntas";

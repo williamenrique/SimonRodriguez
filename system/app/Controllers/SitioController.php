@@ -40,6 +40,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$this->views->getViews($this, "contacto", $data);
 	}
 	/*********TODO: Vista *****************/
@@ -53,6 +55,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$arrDataPens = $this->model->getPensamiento('pregunta');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "pregunta", $data);
 	}
@@ -94,6 +98,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "nosotros", $data);
 	}
@@ -106,7 +112,7 @@ class Sitio extends Controllers{
 				$html .= '
 						<div class="col-xl-3 col-lg-3 col-md-6">
 							<div class="team-wrapper mb-30">
-								<div class="team-thumbb">
+								<div class="team-thumb">
 									<img src="'.IMG.$arrData[$i]['img_autoridad'].'" alt="">
 								</div>
 								
