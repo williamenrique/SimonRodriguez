@@ -107,12 +107,12 @@ class Sitio extends Controllers{
 						<div class="col-xl-3 col-lg-3 col-md-6">
 							<div class="team-wrapper mb-30">
 								<div class="team-thumbb">
-									<img src="img/team/teammember1.jpg" alt="">
+									<img src="'.IMG.$arrData[$i]['img_equipo'].'" alt="">
 								</div>
 								
 								<div class="team-teacher-info text-center">
-									<h1>Chase M. Bynum</h1>
-									<h2>English Teacher</h2>
+									<h1>'.$arrData[$i]['nombre_equipo'].'</h1>
+									<h2>'.$arrData[$i]['cargo_equipo'].'</h2>
 								</div>
 							</div>
 						</div>
@@ -135,21 +135,12 @@ class Sitio extends Controllers{
 						<div class="col-xl-3 col-lg-3 col-md-6">
 							<div class="team-wrapper team-wrapper-2 mb-30">
 								<div class="team-thumb">
-									<img src="img/team/teamthumb001.jpg" alt="">
-								</div>
-								<div class="team-social-info text-center">
-									<div class="team-social-icon-list">
-										<ul>
-											<li><a href="#"><span class="ti-facebook"></span></a></li>
-											<li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-											<li><a href="#"><span class="ti-google"></span></a></li>
-											<li><a href="#"><span class="ti-linkedin"></span></a></li>
-										</ul>
-									</div>
+									<img src="'.IMG.$arrData[$i]['img_equipo'].'" alt="">
 								</div>
 								<div class="team-teacher-info team-teacher-info-2 text-center">
-									<h1>Chase M. Bynum</h1>
-									<h2>English Teacher</h2>
+									<h1>'.$arrData[$i]['nombre_equipo'].'</h1>
+									<h2>'.$arrData[$i]['cargo_equipo'].'</h2>
+									<h2 class="mt-2">Participante Lcdo. Admón. RRHH</h2>
 								</div>
 							</div>
 						</div>

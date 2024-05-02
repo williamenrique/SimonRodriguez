@@ -7,11 +7,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
-                                <h1 class="white-color f-700">En construcción</h1>
+                                <h1 class="white-color f-700">En proceso</h1>
                                 <nav class="text-center" aria-label="breadcrumb">
                                     <ol class="breadcrumb justify-content-center">
                                         <li class="breadcrumb-item"><a href="<?= base_url()?>">volver al inicio</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Autoridades</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -51,10 +51,10 @@
                 <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <div class="section-title mb-50 text-center">
                         <div class="section-title-heading mb-20">
-                            <h1 class="primary-color">EQUIPO DE TRABAJO</h1>
+                            <h1 class="primary-color">CREADORES DEL BLOG</h1>
                         </div>
                         <div class="section-title-para">
-                            <p class="gray-color">GRUPO QUE REALIZO EL SITIO</p>
+                            <p class="gray-color">Equipo de trabajo</p>
                         </div>
                     </div>
                 </div>
