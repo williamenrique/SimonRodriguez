@@ -55,7 +55,6 @@
                         <h1>¿Quién fue Simón Rodríguez?</h1>
                         <p class="text-justify">
                             Simón Rodríguez fue un destacado educador, filósofo y político venezolano, nacido el 28 de octubre de 1769 en Caracas. Fue uno de los personajes más influyentes en la historia de Venezuela y América Latina, siendo conocido por ser el maestro y mentor del prócer de la independencia Simón Bolívar.
-
                             Rodríguez tuvo una formación autodidacta y viajó por varios países europeos, donde se interesó por las ideas ilustradas y revolucionarias que estaban surgiendo en esa época. A su regreso a Venezuela, se convirtió en un defensor de la educación como herramienta para la liberación y el progreso de los pueblos.
 
                             En 1810, Rodríguez se unió al movimiento independentista venezolano y colaboró estrechamente con Simón Bolívar en la lucha por la emancipación de América del dominio español. Fue nombrado como secretario personal de Bolívar y desempeñó un papel fundamental en la formación del pensamiento político del Libertador.

@@ -79,15 +79,18 @@
                                             <a href="<?= base_url()?>sitio/acerca">ACERCA</a>
                                         </li>
                                         <li>
-                                            <a href="#">Formacion</a>
+                                            <a href="#">FORMACIÓN</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">CARRERAS EN CURSO</a>
+                                                    <a href="<?= base_url()?>sitio/captacion">CAPTACIÓN</a>
+                                                </li>
+                                                <li>
+                                                    <a href="<?= base_url()?>sitio/carreras">CARREAS OFERTADAS</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#incripcion">INSCRIPCIÓN</a>
+                                            <a href="#">INSCRIPCIÓN</a>
                                             <ul class="submenu">
                                                 <li>
                                                     <a href="<?= base_url()?>sitio/plantilla">PROCESO DE INSCRIPCIÓN</a>

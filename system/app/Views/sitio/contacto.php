@@ -7,13 +7,10 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
-                                <h1 class="white-color f-700">Contactanos</h1>
-                                <nav class="text-center" aria-label="breadcrumb">
-                                    <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><a href="<?= base_url()?>">volver al inicio</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Pagina realizada por grupo</li>
-                                    </ol>
-                                </nav>
+                                <h2 class="white-color f-700">Contactanos</h2>
+                                <p class="text-white">
+                                    "Enseñar es hacer comprender; es emplear el entendimiento; no hacer trabajar la memoria"
+                                </p>
                             </div>
                         </div>
                     </div>

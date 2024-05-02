@@ -85,7 +85,6 @@
     <!-- events start -->
     <div id="events" class="events-area events-bg-height pt-100 pb-95" style="background-image: url(<?= IMG ?>bg/courses_bg.png)">
         <div class="container eventos">
-           
         </div>
     </div>
     <!-- events end -->

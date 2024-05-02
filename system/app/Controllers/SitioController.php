@@ -24,9 +24,9 @@ class Sitio extends Controllers{
 
 		// $data['page_functions'] = "function.enUso.js";
 		$arrData = $this->model->getInst();
-		$data['tlf_instituto'] =$arrData['tlf_instituto'];
-		$data['email_instituto'] =$arrData['email_instituto'];
-		$data['direccion_instituto'] =$arrData['direccion_instituto'];
+		$data['tlf_instituto'] = $arrData['tlf_instituto'];
+		$data['email_instituto'] = $arrData['email_instituto'];
+		$data['direccion_instituto'] = $arrData['direccion_instituto'];
 		$this->views->getViews($this, "acerca", $data);
 	}
 	/*********TODO: Vista *****************/
@@ -91,9 +91,9 @@ class Sitio extends Controllers{
 		$data['page_title'] = "UNESR";
 		$data['page_name'] = "plantilla";
 		$arrData = $this->model->getInst();
-		$data['tlf_instituto'] =$arrData['tlf_instituto'];
-		$data['email_instituto'] =$arrData['email_instituto'];
-		$data['direccion_instituto'] =$arrData['direccion_instituto'];
+		$data['tlf_instituto'] = $arrData['tlf_instituto'];
+		$data['email_instituto'] = $arrData['email_instituto'];
+		$data['direccion_instituto'] = $arrData['direccion_instituto'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "nosotros", $data);
 	}
@@ -154,6 +154,34 @@ class Sitio extends Controllers{
 		die();
 	}
 	/*********TODO: Vista *****************/
+	public function carreras(){
+		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
+		//incluimos un arreglo que contendra toda la informacion que se enviara al home
+		$data['page_tag'] = "TITULO DE PAGINA";
+		$data['page_title'] = "UNESR";
+		$data['page_name'] = "plantilla";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] = $arrData['tlf_instituto'];
+		$data['email_instituto'] = $arrData['email_instituto'];
+		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$data['page_functions'] = "function.sitio.js";
+		$this->views->getViews($this, "carreras", $data);
+	}
+	/*********TODO: Vista *****************/
+	public function captacion(){
+		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
+		//incluimos un arreglo que contendra toda la informacion que se enviara al home
+		$data['page_tag'] = "TITULO DE PAGINA";
+		$data['page_title'] = "UNESR";
+		$data['page_name'] = "plantilla";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] = $arrData['tlf_instituto'];
+		$data['email_instituto'] = $arrData['email_instituto'];
+		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$data['page_functions'] = "function.sitio.js";
+		$this->views->getViews($this, "captacion", $data);
+	}
+	/*********TODO: Vista *****************/
 	public function plantilla(){
 		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
 		//incluimos un arreglo que contendra toda la informacion que se enviara al home
@@ -161,9 +189,9 @@ class Sitio extends Controllers{
 		$data['page_title'] = "UNESR";
 		$data['page_name'] = "plantilla";
 		$arrData = $this->model->getInst();
-		$data['tlf_instituto'] =$arrData['tlf_instituto'];
-		$data['email_instituto'] =$arrData['email_instituto'];
-		$data['direccion_instituto'] =$arrData['direccion_instituto'];
+		$data['tlf_instituto'] = $arrData['tlf_instituto'];
+		$data['email_instituto'] = $arrData['email_instituto'];
+		$data['direccion_instituto'] = $arrData['direccion_instituto'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "plantilla", $data);
 	}
