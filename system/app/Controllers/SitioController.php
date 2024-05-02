@@ -107,12 +107,12 @@ class Sitio extends Controllers{
 						<div class="col-xl-3 col-lg-3 col-md-6">
 							<div class="team-wrapper mb-30">
 								<div class="team-thumbb">
-									<img src="'.IMG.$arrData[$i]['img_equipo'].'" alt="">
+									<img src="'.IMG.$arrData[$i]['img_autoridad'].'" alt="">
 								</div>
 								
 								<div class="team-teacher-info text-center">
-									<h1>'.$arrData[$i]['nombre_equipo'].'</h1>
-									<h2>'.$arrData[$i]['cargo_equipo'].'</h2>
+									<h1>'.$arrData[$i]['nombre_autoridad'].'</h1>
+									<h2>'.$arrData[$i]['cargo_autoridad'].'</h2>
 								</div>
 							</div>
 						</div>
