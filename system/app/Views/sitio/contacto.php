@@ -7,13 +7,10 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
-                                <h1 class="white-color f-700">Contactano</h1>
-                                <nav class="text-center" aria-label="breadcrumb">
-                                    <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><a href="<?= base_url()?>">volver al inicio</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Pagina realizada por grupo</li>
-                                    </ol>
-                                </nav>
+                                <h2 class="white-color f-700">Contactanos</h2>
+                                <p class="text-white">
+                                    "Enseñar es hacer comprender; es emplear el entendimiento; no hacer trabajar la memoria"
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -45,7 +42,7 @@
                                 </div>
                                 <div class="contact-text">
                                     <h5>Llamanos al</h5>
-                                    <span><?= TLF ?></span>
+                                    <span><?= $data['tlf_instituto']; ?></span>
                                 </div>
                             </li>
                             <li>
@@ -53,8 +50,8 @@
                                     <i class="ti-email"></i>
                                 </div>
                                 <div class="contact-text">
-                                    <h5>Email de la UNERS</h5>
-                                    <span><a href="#" ><?= EMAIL ?></a></span>
+                                    <h5>Email de la UNESR</h5>
+                                    <span><a href="#" ><?= $data['email_instituto']; ?></a></span>
                                 </div>
                             </li>
                             <li>
@@ -63,7 +60,7 @@
                                 </div>
                                 <div class="contact-text">
                                     <h5>Dirección</h5>
-                                    <span><?= DIRECCION ?></span>
+                                    <span><?= $data['direccion_instituto']; ?></span>
                                 </div>
                             </li>
                         </ul>
@@ -79,23 +76,23 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <input placeholder="Name :" type="text">
+                                    <input placeholder="Nombre :" type="text">
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <input placeholder="Email :" type="text">
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <input placeholder="Subject :" type="text">
+                                    <input placeholder="Pregunta :" type="text">
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <input placeholder="Experience :" type="text">
+                                    <input placeholder="Experiencia :" type="text">
                                 </div>
                                 <div class="col-xl-12">
-                                    <textarea cols="30" rows="10" placeholder="Message :"></textarea>
+                                    <textarea cols="30" rows="10" placeholder="Mensaje :"></textarea>
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="faq-form-btn events-form-btn">
-                                        <button class="btn m-0">submit now</button>
+                                        <button class="btn m-0">enviar </button>
                                     </div>
                                 </div>
                             </div>

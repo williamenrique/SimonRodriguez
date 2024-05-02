@@ -8,7 +8,7 @@
                             <div class="col-xl-6 col-lg-7 col-md-8">
                                 <div class="subscribe-text">
                                     <h1>Subscribete</h1>
-                                    <span>Coloca tu correo y recibiras ultimas noticias</span>
+                                    <span>No te pierdas ninguna información de la UNESR</span>
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-5 col-md-4 justify-content-end">
@@ -132,7 +132,7 @@
                                     <div class="single-footer-contact-info">
                                         <span class="ti-email "></span>
                                         <span class="footer-contact-list-text">
-                                            <a href="#" ><?= $data['email_instituto']?></a>
+                                            <a href="#" class="text-white"><?= $data['email_instituto']?></a>
                                         </span>
                                     </div>
                                     <div class="single-footer-contact-info">

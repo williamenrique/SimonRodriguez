@@ -7,13 +7,10 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
-                                <h1 class="white-color f-700">Preguntas frecuentes</h1>
-                                <nav class="text-center" aria-label="breadcrumb">
-                                    <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><a href="<?= base_url()?>">volver al inicio</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Pagina realizada por grupo</li>
-                                    </ol>
-                                </nav>
+                                <h2 class="white-color f-700">PREGUNTAS INFORMATIVAS</h2>
+                                <p class="text-white">
+                                    "Enseñen, y tendrán quien sepa; eduquen, y tendrán quien haga."
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -22,5 +19,24 @@
         </div>
     </div>
     <!-- slider-end -->
-    
+    <!-- faq start -->
+    <div class="fag-area pt-100 pb-70 mb-">
+        <div class="container">
+            <div class="faq-list">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-10 col-md-12">
+                        <div class="faq-area-title mb-35">
+                            <h2 class="mb-15">Preguntas informativas :</h2>
+                            <p>Le dará una explicación completa del sistema y le expondrá las enseñanzas reales del gran explorador de la verdad, el maestro constructor de la felicidad humana que uno rechaza.</p>
+                        </div>
+                        <div class="faq-wrapper mb-30 wow fadeInLeft" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                            <div class="accordion" id="accordion">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- faq end -->
 <?= footer($data)?>

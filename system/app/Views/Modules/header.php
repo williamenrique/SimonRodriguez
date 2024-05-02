@@ -12,7 +12,8 @@
     <!-- CSS here -->
     <link rel="stylesheet" href="<?= PLUGINS ?>css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= PLUGINS ?>css/animate.min.css">
-    <link rel="stylesheet" href="<?= PLUGINS ?>css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="stylesheet" href="<?= PLUGINS ?>css/fontawesome-all.min.css"> -->
     <link rel="stylesheet" href="<?= PLUGINS ?>css/themify-icons.css">
     <link rel="stylesheet" href="<?= PLUGINS ?>css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?= PLUGINS ?>css/slick.css">
@@ -37,7 +38,7 @@
                                 </div>
                                 <div class="header-contact header-contact-email">
                                     <span class="ti-email"></span>
-                                    <p class="email-name white-text"><a href="#" ><?= $data['email_instituto'] ?></a></p>
+                                    <p class="email-name white-text"><a href="#" class="text-white"><?= $data['email_instituto'] ?></a></p>
                                 </div>
                             </div>
                         </div>
@@ -68,42 +69,43 @@
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-6 col-6">
-                            
-                            <div class="main-menu">
-                            <!-- <div class="main-menu f-right"> -->
+                            <div class="main-menu f-right">
                                 <nav id="mobile-menu" style="display: block;">
                                     <ul>
                                         <li>
-                                            <a href="<?= base_url()?>">Inicio</a>
+                                            <a href="<?= base_url()?>">INICIO</a>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url()?>sitio/acerca">acerca</a>
+                                            <a href="<?= base_url()?>sitio/acerca">ACERCA</a>
                                         </li>
                                         <li>
-                                            <a href="#">Formacion</a>
+                                            <a href="#">FORMACIÓN</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">CARRERAS EN CURSO</a>
+                                                    <a href="<?= base_url()?>sitio/captacion">CAPTACIÓN</a>
+                                                </li>
+                                                <li>
+                                                    <a href="<?= base_url()?>sitio/carreras">CARREAS OFERTADAS</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#incripcion">inscripcion</a>
+                                            <a href="#">INSCRIPCIÓN</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">proceso de inscripcion</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">PROCESO DE INSCRIPCIÓN</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">periodod academicos</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">PERIODOS ACADEMICOS</a>
                                                 </li>
                                                 
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">convenio</a>
+                                            <a href="#">CONVENIO</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">institucionales</a>
+                                                    <a href="<?= base_url()?>sitio/plantilla">INSTITUCIONALES</a>
                                                 </li>
                                                 <li>
                                                     <a href="<?= base_url()?>sitio/plantilla">UNERS INCES</a>
@@ -111,16 +113,16 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url()?>sitio/plantilla">EQUIPO</a>
+                                            <a href="<?= base_url()?>sitio/nosotros">NOSOTROS</a>
                                         </li>
                                         <li>
                                             <a href="#">CONTACTO</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/contacto">Contactanos</a>
+                                                    <a href="<?= base_url()?>sitio/contacto">CONTACTANOS</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/pregunta">Preguntas</a>
+                                                    <a href="<?= base_url()?>sitio/pregunta">información</a>
                                                 </li>
                                             </ul>
                                         </li>

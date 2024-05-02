@@ -8,7 +8,8 @@
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
                                 <h1 class="white-color f-700">Universidad Nacional Experimental</h1>
-                                <h2 class="white-color f-700">Simon Rodriguez</h2>
+                                <h2 class="white-color f-700">Simón Rodríguez</h1>
+                                <h2 class="white-color f-700">Extensión San Felipe</h2>
 
                                 <!-- <nav class="text-center" aria-label="breadcrumb">
                                     <ol class="breadcrumb justify-content-center">
@@ -33,8 +34,11 @@
                     <div class="about-title-section mb-30">
                         <h1>Dr. Félix Admas</h1>
                         <p class="text-justify">
-                            El Toro (Edo. Delta Amacuro) 24.12.1921, fallecimiento:Caracas 31.1.1991 
-                            Electo decano de la Facultad de Humanidades y Educación (1972-1975), donde fundó los estudios universitarios a distancia. Entre 1975 y 1982 fue rector de la Universidad Simón Rodríguez, a la que aportó sus ideas sobre educación con enfoque andragógico
+                            El Dr. Félix Adams fue un destacado educador y filósofo venezolano, reconocido por su importante labor en la creación y fundación de la Universidad Simón Rodríguez. Adams jugó un papel fundamental en el diseño y establecimiento de esta institución educativa, que tiene como objetivo principal promover una educación de calidad y accesible para todos los sectores de la sociedad venezolana.
+                            
+                            Gracias a su visión y compromiso con la educación, el Dr. Félix Adams contribuyó significativamente al desarrollo de la Universidad Simón Rodríguez, convirtiéndola en un referente en el ámbito de la educación superior en Venezuela. Su legado perdura en la institución, que sigue formando a profesionales comprometidos con el progreso y la transformación de la sociedad.
+                            
+                            La participación del Dr. Félix Adams como fundador de la Universidad Simón Rodríguez es un testimonio de su dedicación a la educación y su firme convicción en el poder transformador del conocimiento. Su legado continúa inspirando a generaciones de estudiantes y educadores a seguir trabajando por una educación inclusiva, equitativa y de calidad para todos.
                         </p>
                     </div>
                 </div>
@@ -48,10 +52,9 @@
             <div class="row">
                 <div class="col-xl-7 col-lg-7">
                     <div class="about-title-section about-title-section-2 mb-30">
-                        <h1>Quien fue Simón Rodriguez</h1>
+                        <h1>¿Quién fue Simón Rodríguez?</h1>
                         <p class="text-justify">
                             Simón Rodríguez fue un destacado educador, filósofo y político venezolano, nacido el 28 de octubre de 1769 en Caracas. Fue uno de los personajes más influyentes en la historia de Venezuela y América Latina, siendo conocido por ser el maestro y mentor del prócer de la independencia Simón Bolívar.
-
                             Rodríguez tuvo una formación autodidacta y viajó por varios países europeos, donde se interesó por las ideas ilustradas y revolucionarias que estaban surgiendo en esa época. A su regreso a Venezuela, se convirtió en un defensor de la educación como herramienta para la liberación y el progreso de los pueblos.
 
                             En 1810, Rodríguez se unió al movimiento independentista venezolano y colaboró estrechamente con Simón Bolívar en la lucha por la emancipación de América del dominio español. Fue nombrado como secretario personal de Bolívar y desempeñó un papel fundamental en la formación del pensamiento político del Libertador.
@@ -66,7 +69,7 @@
                     <div class="about-title-section about-title-section-2 mb-30">
                         <h1>La Universidad</h1>
                         <p class="text-justify">
-                            La Universidad Simón Rodríguez es una institución de educación superior ubicada en Caracas, Venezuela. Fue fundada en 1971 por un grupo de intelectuales y educadores comprometidos con la transformación social y la democratización del conocimiento.
+                            La Universidad Simón Rodríguez es una institución de educación superior ubicada en Caracas, Venezuela. Fue fundada en 1974 por un grupo de intelectuales y educadores comprometidos con la transformación social y la democratización del conocimiento.
 
                             La universidad lleva el nombre de Simón Rodríguez, un destacado pedagogo y mentor de Simón Bolívar, quien abogaba por una educación liberadora y emancipadora. Desde su creación, la Universidad Simón Rodríguez ha mantenido este espíritu crítico y comprometido con la justicia social.
 
@@ -99,7 +102,7 @@
                         <h1>UNESR extensión San Felipe</h1>
                         <p class="text-justify">
                             La extensión de la Universidad Simón Rodríguez en San Felipe, estado Yaracuy, fue creada con el objetivo de brindar oportunidades de formación académica a los habitantes de la región y contribuir al desarrollo educativo y social de la comunidad.
-                            La historia de la creación de esta extensión se remonta a la década de los 90, cuando se comenzó a gestar la idea de establecer un centro de estudios superiores en San Felipe que pudiera atender las necesidades educativas de la población local. Tras varios años de planificación y gestiones, finalmente en el año XXXX se logró la apertura oficial de la extensión de la Universidad Simón Rodríguez en la ciudad.
+                            La historia de la creación de esta extensión se remonta a la década de los 90, cuando se comenzó a gestar la idea de establecer un centro de estudios superiores en San Felipe que pudiera atender las necesidades educativas de la población local. Tras varios años de planificación y gestiones, finalmente en el año 2006 con el convenio FIEC Gobernacion de Yaracuy se logró la apertura oficial de la extensión de la Universidad Simón Rodríguez en la ciudad.
                             Desde entonces, la extensión ha ofrecido una amplia gama de programas académicos en diversas áreas del conocimiento, permitiendo a los estudiantes de la región acceder a una educación universitaria de calidad sin tener que desplazarse a otras ciudades. Además, ha contribuido al fortalecimiento del tejido educativo y cultural de San Felipe y sus alrededores, promoviendo el desarrollo integral de la comunidad.
                             En resumen, la creación de la extensión de la Universidad Simón Rodríguez en San Felipe, estado Yaracuy, ha sido un importante hito en la historia educativa de la región, brindando oportunidades de formación académica y contribuyendo al progreso social y cultural de sus habitantes.
                         </p>
@@ -128,7 +131,7 @@
                             <h1 class="primary-color">Lo que dicen nuestros estudiantes</h1>
                         </div>
                         <div class="section-title-para">
-                            <p class="gray-color">Belis nisl adipiscing sapien sed malesu diame lacus eget erat Cras mollis scelerisqu Nullam arcu liquam here was consequat.</p>
+                            <p class="gray-color">Hablemos un poco más de tus experiencias como participantes en la universidad.</p>
                         </div>
                     </div>
                 </div>
