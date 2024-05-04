@@ -62,7 +62,7 @@ class Home extends Controllers{
 															<div class="events-text white-bg">
 																	<div class="event-text-heading mb-20">
 																			<div class="events-calendar text-center f-left">
-																					<span class="date">25</span>
+																					<span class="date">'.substr($arrData[$i]['fecha_evento'], 8, 2).'</span>
 																					<span class="month">'.formatear_fecha($arrData[$i]['fecha_evento']).'</span>
 																			</div>
 																			<div class="events-text-title clearfix">
@@ -76,7 +76,7 @@ class Home extends Controllers{
 																			</div>
 																	</div>
 																	<div class="events-para">
-																			<p>'.$arrData[$i]['cuerpo_evento'].'</p>
+																			<p>'.substr($arrData[$i]['cuerpo_evento'], 0, strrpos(substr($arrData[$i]['cuerpo_evento'],0,200),"")).'...</p>
 																	</div>
 																	<div class="events-speaker">
 																			<h2>Ponente : <span>'.$arrData[$i]['ponente_evento'].'</span></h2>

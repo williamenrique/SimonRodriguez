@@ -37,4 +37,10 @@ class SitioModel extends Mysql {
 		$request = $this->select_all($sql);
 		return $request;
 	}
+	// TODO: mostrar equipo
+	public function getPensun(){
+		$sql = "SELECT * FROM table_documentos";
+		$request = $this->select_all($sql);
+		return $request;
+	}
 }

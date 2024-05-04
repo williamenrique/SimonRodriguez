@@ -7,13 +7,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
-                                <h2 class="white-color f-700">En construcción</h2>
-                                <nav class="text-center" aria-label="breadcrumb">
-                                    <ol class="breadcrumb justify-content-center">
-                                        <li class="breadcrumb-item"><a href="<?= base_url()?>">volver al inicio</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Pagina realizada por grupo</li>
-                                    </ol>
-                                </nav>
+                                <h2 class="white-color f-700">En Construcción</h2>
+                                <p class="text-white"><?= $data['pensamiento'] ?></p>
                             </div>
                         </div>
                     </div>

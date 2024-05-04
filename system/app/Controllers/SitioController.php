@@ -9,8 +9,8 @@ class Sitio extends Controllers{
 			//invocar para que se ejecute el metodo de la herencia
 			parent::__construct();
 		}
-		/*********TODO: Vista *****************/
-		public function acerca(){
+	/*********TODO: Vista *****************/
+	public function acerca(){
 		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
 		//incluimos un arreglo que contendra toda la informacion que se enviara al home
 		$data['page_tag'] = "TITULO DE PAGINA";
@@ -170,8 +170,30 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "carreras", $data);
+	}
+
+	public function getPensun(){
+		$html = '';
+		$arrData = $this->model->getPensun();
+		$html .= '<div class="row">';
+		if(count($arrData) > 0 ){
+			for ($i=0; $i < count($arrData); $i++) {
+				$html .= '
+						<div class="widget-link">
+							<ul class="sidebar-link">
+								<li>
+									<a href="#">LICENCIADO EN ADMINISTRACIÓN RMYF</a>
+									<span><a href="../doc/PERFIL DEL LICENCIADO EN ADMINISTRACIÓN RMYF.pdf" download="PENSUM">PDF</a></span>
+								</li>
+							</ul>
+						</div>
+				';
+			}
+		}
 	}
 	/*********TODO: Vista *****************/
 	public function captacion(){
@@ -184,6 +206,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "captacion", $data);
 	}
@@ -198,6 +222,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "plantilla", $data);
 	}
