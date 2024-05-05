@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="<?= PLUGINS ?>css/default.css">
     <link rel="stylesheet" href="<?= PLUGINS ?>css/responsive.css">
     <link rel="stylesheet" href="<?= PLUGINS ?>css/meanmenu.css">
+    <link rel="stylesheet" href="<?= CSS ?>estilo.css">
 </head>
 <body>
     <!-- header-start -->
@@ -93,10 +94,10 @@
                                             <a href="#">INSCRIPCIÓN</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">PROCESO DE INSCRIPCIÓN</a>
+                                                    <a href="<?= base_url()?>sitio/proceso">PROCESO DE INSCRIPCIÓN SGA</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= base_url()?>sitio/plantilla">PERIODOS ACADEMICOS</a>
+                                                    <a href="<?= base_url()?>sitio/periodos">PERIODOS ACADEMICOS</a>
                                                 </li>
                                                 
                                             </ul>

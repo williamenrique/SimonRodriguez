@@ -50,4 +50,51 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     }
+
+    if (document.getElementById('pensum')) {
+        const xhr = new XMLHttpRequest()
+        const method = "POST"
+        const ajaxUrl = base_url + "Sitio/getPensum"
+        xhr.open(method, ajaxUrl, true)
+        xhr.onreadystatechange = () => {
+            // In local files, status is 0 upon success in Mozilla Firefox
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                const status = xhr.status;
+                if (status === 0 || (status >= 200 && status < 400)) {
+                    // The request has been completed successfully
+                    document.getElementById('pensum').innerHTML = xhr.responseText
+                }
+            }
+        }
+        xhr.send()
+    }
+    if (document.getElementById('perfil')) {
+        let ajaxUrl = base_url + "Sitio/getPerfil"
+        //creamos el objeto para os navegadores
+        var request = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP')
+        //abrimos la conexion y enviamos los parametros para la peticion
+        request.open("POST", ajaxUrl, true)
+        request.send()
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                //option obtenidos del controlador
+                document.getElementById('perfil').innerHTML = request.responseText
+            }
+        }
+    }
+
+    if (document.querySelector('.eventListAll')) {
+        let ajaxUrl = base_url + "Sitio/eventListAll"
+        //creamos el objeto para os navegadores
+        var request = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP')
+        //abrimos la conexion y enviamos los parametros para la peticion
+        request.open("POST", ajaxUrl, true)
+        request.send()
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                //option obtenidos del controlador
+                document.querySelector('.eventListAll').innerHTML = request.responseText
+            }
+        }
+    }
 })

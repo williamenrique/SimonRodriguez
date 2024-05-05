@@ -36,65 +36,65 @@ class Home extends Controllers{
 		$html .= '';
 		if(count($arrData) > 0){
 				$html .= '
-									<div class="row">
-										<div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-												<div class="section-title mb-50 text-center">
-														<div class="section-title-heading mb-20">
-																<h1 class="white-color">Proximos eventos</h1>
-														</div>
-														<div class="section-title-para">
-																<p class="white-color">Belis nisl adipiscing sapien sed malesu diame lacus eget erat Cras mollis scelerisqu Nullam arcu liquam here was consequat.</p>
-														</div>
-												</div>
-										</div>
-								</div>
-								<div class="events-list mb-30">
-										<div class="row">
+						<div class="row">
+							<div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+									<div class="section-title mb-50 text-center">
+											<div class="section-title-heading mb-20">
+													<h1 class="white-color">Proximos eventos</h1>
+											</div>
+											<div class="section-title-para">
+													<p class="white-color">Belis nisl adipiscing sapien sed malesu diame lacus eget erat Cras mollis scelerisqu Nullam arcu liquam here was consequat.</p>
+											</div>
+									</div>
+							</div>
+					</div>
+					<div class="events-list mb-30">
+						<div class="row">
 						';
 			for ($i=0; $i < count($arrData); $i++) {
 				$html .= '
-									<div class="col-xl-6 col-lg-6 single-events mb-30">
-											<div class="events-wrapper">
-													<div class="events-inner d-flex">
-															<div class="events-thumb">
-																	<img src="<?= IMG ?>events/eventsthumb1.png" alt="">
-															</div>
-															<div class="events-text white-bg">
-																	<div class="event-text-heading mb-20">
-																			<div class="events-calendar text-center f-left">
-																					<span class="date">25</span>
-																					<span class="month">'.formatear_fecha($arrData[$i]['fecha_evento']).'</span>
-																			</div>
-																			<div class="events-text-title clearfix">
-																					<a href="#">
-																							<h4>'.$arrData[$i]['nombre_evento'].'</h4>
-																					</a>
-																					<div class="time-area">
-																							<span class="ti-time"></span>
-																							<span class="published-time">'.$arrData[$i]['hora_evento'].'</span>
-																					</div>
-																			</div>
-																	</div>
-																	<div class="events-para">
-																			<p>'.$arrData[$i]['cuerpo_evento'].'</p>
-																	</div>
-																	<div class="events-speaker">
-																			<h2>Ponente : <span>'.$arrData[$i]['ponente_evento'].'</span></h2>
-																	</div>
-															</div>
-													</div>
-											</div>
+						<div class="col-xl-6 col-lg-6 single-events mb-30">
+							<div class="events-wrapper">
+								<div class="events-inner d-flex">
+									<div class="events-thumb">
+										<img src="<?= IMG ?>events/eventsthumb1.png" alt="">
 									</div>
-								';
+									<div class="events-text white-bg">
+										<div class="event-text-heading mb-20">
+											<div class="events-calendar text-center f-left">
+												<span class="date">'.substr($arrData[$i]['fecha_evento'], 8, 2).'</span>
+												<span class="month">'.formatear_fecha($arrData[$i]['fecha_evento']).'</span>
+											</div>
+											<div class="events-text-title clearfix">
+												<a href="#">
+													<h4>'.$arrData[$i]['nombre_evento'].'</h4>
+												</a>
+												<div class="time-area">
+														<span class="ti-time"></span>
+														<span class="published-time">'.$arrData[$i]['hora_evento'].'</span>
+												</div>
+											</div>
+										</div>
+										<div class="events-para">
+											<p>'.substr($arrData[$i]['cuerpo_evento'], 0, strrpos(substr($arrData[$i]['cuerpo_evento'],0,200),"")).'...</p>
+										</div>
+										<div class="events-speaker">
+											<h2>Ponente : <span>'.substr($arrData[$i]['ponente_evento'], 0, strrpos(substr($arrData[$i]['ponente_evento'],0,80),"")).'</span></h2>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					';
 			}
 			$html .= '
-							</div>
+				</div>
             </div>
             <div class="events-view-btn">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="view-all-events text-center">
-                            <button class="yewello-btn">ver todos los eventos<span>&rarr;</span></button>
+                            <a href="'.base_url().'sitio/evento"class="yewello-btn">ver todos los eventos<span>&rarr;</span></a>
                         </div>
                     </div>
                 </div>

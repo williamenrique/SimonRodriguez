@@ -112,8 +112,8 @@
 
             <div class="row mt-60">
                 <div class="col-xl-12">
-                    <div class="university-banner mb-30">
-                        <img src="<?= IMG ?>acerca/university.jpg" alt="">
+                    <div class="university-banner mb-30" style="height: 70%">
+                        <img src="<?= IMG ?>acerca/university.jpg" style=" height:70%">
                     </div>
                 </div>
             </div>

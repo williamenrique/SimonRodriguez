@@ -8,9 +8,7 @@
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
                                 <h2 class="white-color f-700">CAPTACIÓN</h2>
-                                <p class="text-white">
-                                    "Sólo la educación impone obligaciones a la voluntad. Estas obligaciones son las que llamamos hábitos."
-                                </p>
+                                <p class="text-white"><?= $data['pensamiento'] ?></p>
                             </div>
                         </div>
                     </div>

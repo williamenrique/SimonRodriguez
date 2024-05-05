@@ -13,7 +13,7 @@ class HomeModel extends Mysql {
 		return $request;
 	}
 	public function eventList(){
-		$sql = "SELECT * FROM table_evento WHERE status_evento = 1";
+		$sql = "SELECT * FROM table_evento ORDER BY fecha_evento DESC LIMIT 6";
 		$request = $this->select_all($sql);
 		return $request;
 	}

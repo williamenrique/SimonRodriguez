@@ -8,9 +8,7 @@
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
                                 <h2 class="white-color f-700">PREGUNTAS INFORMATIVAS</h2>
-                                <p class="text-white">
-                                    "Enseñen, y tendrán quien sepa; eduquen, y tendrán quien haga."
-                                </p>
+                                <p class="text-white"><?= $data['pensamiento'] ?></p>
                             </div>
                         </div>
                     </div>

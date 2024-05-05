@@ -8,9 +8,7 @@
                         <div class="col-xl-12">
                             <div class="slider-content slider-content-breadcrumb text-center">
                                 <h2 class="white-color f-700">Contactanos</h2>
-                                <p class="text-white">
-                                    "Enseñar es hacer comprender; es emplear el entendimiento; no hacer trabajar la memoria"
-                                </p>
+                                <p class="text-white"><?= $data['pensamiento'] ?></p>
                             </div>
                         </div>
                     </div>
