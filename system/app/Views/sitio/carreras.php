@@ -24,7 +24,9 @@
                     <div class="courses-details-sidebar-area">
                         <div class="widget mb-40 widget-padding white-bg">
                             <h4 class="widget-title">Perfil del Egresado</h4>
-                            <div id="perfil"></div>
+                            <div class="widget-link">
+                                <ul class="sidebar-link" id="perfil"> </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -32,107 +34,24 @@
                     <div class="courses-details-sidebar-area">
                         <div class="widget mb-40 widget-padding white-bg">
                             <h4 class="widget-title">Pensun por carrera</h4>
-                            <div class="sidebar-rc-post">
-                                <ul>
-                                    <li>
-                                        <div class="sidebar-rc-post-main-area d-flex mb-20">
-                                            <div class="rc-post-thumb">
-                                                <a href="course_details.html">
-                                                    <img src="img/courses/rcourses_thumb01.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="rc-post-content">
-                                                <h4>
-                                                    <a href="course_details.html">How to design mobile apps with full resposibe layout</a>
-                                                </h4>
-                                                <div class="widget-advisors-name">
-                                                    <span>Advisor : <span class="f-500">Marcelo</span></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="sidebar-rc-post-main-area d-flex mb-20">
-                                            <div class="rc-post-thumb">
-                                                <a href="course_details.html">
-                                                    <img src="img/courses/rcourses_thumb02.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="rc-post-content">
-                                                <h4>
-                                                    <a href="course_details.html">How to design mobile apps with full resposibe layout</a>
-                                                </h4>
-                                                <div class="widget-advisors-name">
-                                                    <span>Advisor : <span class="f-500">Marcelo</span></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="sidebar-rc-post-main-area d-flex mb-20">
-                                            <div class="rc-post-thumb">
-                                                <a href="blog-details.html">
-                                                    <img src="img/courses/rcourses_thumb03.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="rc-post-content">
-                                                <h4>
-                                                    <a href="course_details.html">How to design mobile apps with full resposibe layout</a>
-                                                </h4>
-                                                <div class="widget-advisors-name">
-                                                    <span>Advisor : <span class="f-500">Marcelo</span></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="sidebar-rc-post-main-area d-flex">
-                                            <div class="rc-post-thumb">
-                                                <a href="course_details.html">
-                                                    <img src="img/courses/rcourses_thumb04.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="rc-post-content">
-                                                <h4>
-                                                    <a href="course_details.html">How to design mobile apps with full resposibe layout</a>
-                                                </h4>
-                                                <div class="widget-advisors-name">
-                                                    <span>Advisor : <span class="f-500">Marcelo</span></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <div class="widget-link">
+                                <ul class="sidebar-link" id="pensum"> </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="widget mb-40 widget-padding white-bg">
-                    <h4 class="widget-title">Recent Course</h4>
-                    <div class="widget-tags clearfix">
-                        <ul class="sidebar-tad clearfix">
-                            <li>
-                                <a href="#">CSE</a>
-                            </li>
-                            <li>
-                                <a href="#">Business</a>
-                            </li>
-                            <li>
-                                <a href="#">Study</a>
-                            </li>
-                            <li>
-                                <a href="#">English</a>
-                            </li>
-                            <li>
-                                <a href="#">Education</a>
-                            </li>
-                            <li>
-                                <a href="#">Engineering</a>
-                            </li>
-                            <li>
-                                <a href="#">Advisor</a>
-                            </li>
-                        </ul>
+            </div>
+            <div class="row">
+                <div class="col-xl-7 col-lg-7">
+                    <div class="about-title-section about-title-section-2 mb-30">
+                        <h5>Breve introducción al perfil</h5>
+                        <p class="text-justify"></p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5">
+                    <div class="about-title-section about-title-section-2 mb-30">
+                        <h5>Breve introducción al perfil</h5>
+                        <p class="text-justify"> </p>
                     </div>
                 </div>
             </div>

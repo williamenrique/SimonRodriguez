@@ -176,23 +176,36 @@ class Sitio extends Controllers{
 		$this->views->getViews($this, "carreras", $data);
 	}
 
-	public function getPensun(){
+	public function getPensum(){
 		$html = '';
-		$arrData = $this->model->getPensun();
-		$html .= '<div class="row">';
+		$arrData = $this->model->getDocumento('pensum');
 		if(count($arrData) > 0 ){
 			for ($i=0; $i < count($arrData); $i++) {
 				$html .= '
-						<div class="widget-link">
-							<ul class="sidebar-link">
-								<li>
-									<a href="#">LICENCIADO EN ADMINISTRACIÓN RMYF</a>
-									<span><a href="../doc/PERFIL DEL LICENCIADO EN ADMINISTRACIÓN RMYF.pdf" download="PENSUM">PDF</a></span>
-								</li>
-							</ul>
-						</div>
+						<li>
+							<a href="#">'.$arrData[$i]['nombre_documento'].'</a>
+							<span><a href="../doc/'.$arrData[$i]['ruta_documento'].'" download="PENSUM">PDF</a></span>
+						</li>
 				';
 			}
+			echo $html;
+			die();
+		}
+	}
+	public function getPerfil(){
+		$html = '';
+		$arrData = $this->model->getDocumento('perfil');
+		if(count($arrData) > 0 ){
+			for ($i=0; $i < count($arrData); $i++) {
+				$html .= '
+						<li>
+							<a href="#">'.$arrData[$i]['nombre_documento'].'</a>
+							<span><a href="../doc/'.$arrData[$i]['ruta_documento'].'" download="perfil">PDF</a></span>
+						</li>
+				';
+			}
+			echo $html;
+			die();
 		}
 	}
 	/*********TODO: Vista *****************/
@@ -210,6 +223,107 @@ class Sitio extends Controllers{
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "captacion", $data);
+	}	
+	/*********TODO: Vista *****************/
+	public function proceso(){
+		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
+		//incluimos un arreglo que contendra toda la informacion que se enviara al home
+		$data['page_tag'] = "TITULO DE PAGINA";
+		$data['page_title'] = "UNESR";
+		$data['page_name'] = "proceso";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] = $arrData['tlf_instituto'];
+		$data['email_instituto'] = $arrData['email_instituto'];
+		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
+		$data['page_functions'] = "function.sitio.js";
+		$this->views->getViews($this, "proceso", $data);
+	}
+	/*********TODO: Vista *****************/
+	public function periodos(){
+		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
+		//incluimos un arreglo que contendra toda la informacion que se enviara al home
+		$data['page_tag'] = "TITULO DE PAGINA";
+		$data['page_title'] = "UNESR";
+		$data['page_name'] = "plantilla";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] = $arrData['tlf_instituto'];
+		$data['email_instituto'] = $arrData['email_instituto'];
+		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
+		$data['page_functions'] = "function.sitio.js";
+		$this->views->getViews($this, "periodos", $data);
+	}
+	/*********TODO: Vista *****************/
+	public function evento(){
+		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
+		//incluimos un arreglo que contendra toda la informacion que se enviara al home
+		$data['page_tag'] = "TITULO DE PAGINA";
+		$data['page_title'] = "UNESR";
+		$data['page_name'] = "plantilla";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] = $arrData['tlf_instituto'];
+		$data['email_instituto'] = $arrData['email_instituto'];
+		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
+		$data['page_functions'] = "function.sitio.js";
+		$this->views->getViews($this, "evento", $data);
+	}
+
+	public function eventListAll(){
+		$html = '';
+		$arrData = $this->model->eventListAll();
+		$html .= '';
+		if(count($arrData) > 0){
+				$html .= '
+					<div class="row">
+						';
+			for ($i=0; $i < count($arrData); $i++) {
+				$html .= '
+						<div class="col-xl-4 col-lg-4 col-md-6">
+							<div class="blog-wrapper mb-30">
+								<div class="blog-thumb mb-25">
+									<a href="#"><img src="'.IMG.$arrData[$i]['img_evento'].'" alt=""></a>
+									<span class="blog-category">'.substr($arrData[$i]['fecha_evento'], 8, 2).'</span>
+								</div>
+								<div class="blog-content">
+									<div class="blog-meta">
+										<span>'.formatear_fecha($arrData[$i]['fecha_evento']).'</span>
+									</div>
+									<h5><a href="#">'.$arrData[$i]['nombre_evento'].'</a></h5>
+									<p>'.$arrData[$i]['cuerpo_evento'].'</p>
+									<div class="read-more-btn">
+										<button>Ponente :'.$arrData[$i]['ponente_evento'].'</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					';
+			}
+			$html .= '
+					</div>
+        
+			';
+		}else{
+			$html .= '
+				<div class="row">
+					<div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+						<div class="section-title mb-50 text-center">
+								<div class="section-title-heading mb-20">
+									<h1 class="primary-color">No se encontraron eventos</h1>
+								</div>
+								<div class="section-title-para">
+									<p class="primary-color">Proximamente encotraras los eventos que la universidad dictara</p>
+								</div>
+						</div>
+					</div>';
+		}
+		$html .='</div> ';
+		echo $html;
+		die();
 	}
 	/*********TODO: Vista *****************/
 	public function plantilla(){
