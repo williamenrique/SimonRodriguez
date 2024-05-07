@@ -71,7 +71,7 @@
                 <div class="col-xl-6 col-lg-6 events-sidebar-margin">
                     <div class="courses-details-sidebar-area">
                         <div class="widget mb-40 widget-padding white-bg">
-                            <h4 class="widget-title">Perfil del Egresado</h4>
+                            
                             <div class="widget-link">
                                 <h4 class="widget-title">LICENCIADO EN ADMINISTRACIÓN MENCIÓN RECURSOS HUMANOS</h4>
                                 <p class="text-justify">
@@ -92,7 +92,7 @@
                 <div class="col-xl-6 col-lg-6 events-sidebar-margin">
                     <div class="courses-details-sidebar-area">
                         <div class="widget mb-40 widget-padding white-bg">
-                            <h4 class="widget-title">Pensun por carrera</h4>
+                            
                             <div class="widget-link">
                                  <h4 class="widget-title">LICENCIADO EN ADMINISTRACIÓN MENCIÓN EMPRESAS AGROPECUARIAS:</h4>
                                 <p class="text-justify">
