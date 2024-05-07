@@ -1,11 +1,11 @@
-.contenedor{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
+.card-header {
+    background: white !important;
+    border-bottom: none !important;
 }
-.contenedor h2{
-    font-size: 3rem;
-    color: navy;
+
+strong{
+    display: block;
+}
+.mb-2{
+    margin-bottom: 2px;
 }

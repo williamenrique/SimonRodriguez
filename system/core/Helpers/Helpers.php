@@ -67,6 +67,13 @@ function setTimeline(int $intIdUser, string $strCodigo, string $strFecha, string
 	$request = $objTimeLine->setTimeline($intIdUser,$strCodigo,$strFecha,$strHoraInicio);
 	return $request;
 }
+function dataUnesr(){
+	require_once ("system/app/Models/InstitutoModel.php");
+	$dataUners = new InstitutoModel();
+	$data = $dataUners->getInst();
+	return  json_decode($data, true);
+}
+
 function strClean($srtCadena){
 	$string = preg_replace(['/\s+/','/^\s|\s$/'],[' ',''],$srtCadena);
 	$string = trim($srtCadena);
