@@ -184,7 +184,7 @@ class Sitio extends Controllers{
 				$html .= '
 						<li>
 							<a href="#">'.$arrData[$i]['nombre_documento'].'</a>
-							<span><a href="../doc/'.$arrData[$i]['ruta_documento'].'" download="PENSUM">PDF</a></span>
+							<span><a href="../doc/'.$arrData[$i]['ruta_documento'].'" download="'.$arrData[$i]['nombre_documento'].'">PDF</a></span>
 						</li>
 				';
 			}
@@ -200,7 +200,7 @@ class Sitio extends Controllers{
 				$html .= '
 						<li>
 							<a href="#">'.$arrData[$i]['nombre_documento'].'</a>
-							<span><a href="../doc/'.$arrData[$i]['ruta_documento'].'" download="perfil">PDF</a></span>
+							<span><a href="../doc/'.$arrData[$i]['ruta_documento'].'" download="'.$arrData[$i]['nombre_documento'].'">PDF</a></span>
 						</li>
 				';
 			}
