@@ -76,10 +76,10 @@ class Home extends Controllers{
 											</div>
 										</div>
 										<div class="events-para">
-											<p>'.substr($arrData[$i]['cuerpo_evento'], 0, strrpos(substr($arrData[$i]['cuerpo_evento'],0,200),"")).'...</p>
+											<p>'.substr($arrData[$i]['cuerpo_evento'],0,200).'...</p>
 										</div>
 										<div class="events-speaker">
-											<h2>Ponente : <span>'.substr($arrData[$i]['ponente_evento'], 0, strrpos(substr($arrData[$i]['ponente_evento'],0,80),"")).'</span></h2>
+											<h2>Ponente : <span>'.substr($arrData[$i]['ponente_evento'],0,80).'</span></h2>
 										</div>
 									</div>
 								</div>
@@ -94,7 +94,7 @@ class Home extends Controllers{
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="view-all-events text-center">
-                            <a href="'.base_url().'sitio/evento"class="yewello-btn">ver todos los eventos<span>&rarr;</span></a>
+                            <a href="'.base_url().'sitio/evento"class="text-white">ver todos los eventos<span>&rarr;</span></a>
                         </div>
                     </div>
                 </div>
