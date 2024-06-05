@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-12 col-lg-4 events-sidebar-margin">
+            <div class="col-xl-12 col-lg-12 events-sidebar-margin">
                 <div class="courses-details-sidebar-area">
                     <div class="widget mb-40 widget-padding white-bg">
                         <h4 class="widget-title">Pasos a seguir en el proceso de inscripción</h4>
