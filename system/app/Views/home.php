@@ -9,7 +9,7 @@
                             <div class="slider-content slider-content-2">
                                 <h1 class="white-color f-700" data-animation="fadeInUp" data-delay=".2s"><span>Universidad Nacional Experimental</span><br>Simón Rodríguez</h1>
                                 <h2 class="white-color f-700">Extensión San Felipe</h2>
-                                <h3 class="white-color f-700" data-animation="fadeInUp" data-delay=".4s">"El que no estudia, cualquiera lo engaña, y el que no tiene cualquiera lo compra"</h3>
+                                <h5 class="white-color f-700" data-animation="fadeInUp" data-delay=".4s">"El que no estudia, cualquiera lo engaña, y el que no tiene cualquiera lo compra"</h5>
                                 <button class="btn yellow-bg-btn" data-animation="fadeInUp" data-delay=".6s">INGRESAR AHORA</button>
                             </div>
                             
