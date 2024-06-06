@@ -27,6 +27,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
 		$this->views->getViews($this, "acerca", $data);
 	}
 	/*********TODO: Vista *****************/
@@ -40,6 +42,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
 		$arrDataPens = $this->model->getPensamiento('nosotros');
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$this->views->getViews($this, "contacto", $data);
@@ -55,6 +59,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
 		$arrDataPens = $this->model->getPensamiento('pregunta');
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
@@ -98,6 +104,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
 		$arrDataPens = $this->model->getPensamiento('nosotros');
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
@@ -170,7 +178,9 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
-		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
+		$arrDataPens = $this->model->getPensamiento('carreras');
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "carreras", $data);
@@ -219,7 +229,9 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
-		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
+		$arrDataPens = $this->model->getPensamiento('captacion');
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "captacion", $data);
@@ -235,7 +247,9 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
-		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
+		$arrDataPens = $this->model->getPensamiento('inscripcion');
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "proceso", $data);
@@ -251,7 +265,9 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
-		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
+		$arrDataPens = $this->model->getPensamiento('periodos');
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
 		$this->views->getViews($this, "periodos", $data);
@@ -267,6 +283,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
 		$arrDataPens = $this->model->getPensamiento('nosotros');
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
@@ -336,6 +354,8 @@ class Sitio extends Controllers{
 		$data['tlf_instituto'] = $arrData['tlf_instituto'];
 		$data['email_instituto'] = $arrData['email_instituto'];
 		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
 		$arrDataPens = $this->model->getPensamiento('nosotros');
 		$data['pensamiento'] = $arrDataPens['pensamiento'];
 		$data['page_functions'] = "function.sitio.js";
