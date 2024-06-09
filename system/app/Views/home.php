@@ -35,18 +35,18 @@
 						fue creada con el objetivo de brindar oportunidades de formación académica a los habitantes de la región y
 						contribuir al desarrollo educativo y social de la comunidad.
 						La historia de la creación de esta extensión se remonta a la década de los 90, cuando se comenzó a gestar la
-						idea de establecer un centro de estudios superiores en San Felipe que pudiera atender las necesidades
+						idea de establecer un centro de estudios superiores en la ciudad de San Felipe que pudiera atender las necesidades
 						educativas de la población local. Tras varios años de planificación y gestiones, finalmente en el año 2006
 						con el convenio FIEC Gobernación de Yaracuy se logró la apertura oficial de la extensión de la Universidad
 						Simón Rodríguez en la ciudad.
-						Desde entonces, la extensión ha ofrecido una amplia gama de carreras académicos en diversas áreas del
+						Desde entonces, la extensión ha ofrecido una amplia gama de carreras Universitarias en diversas áreas del
 						conocimiento, permitiendo a los participantes de la región acceder a una educación universitaria de calidad
 						sin tener que desplazarse a otras ciudades. Además, ha contribuido al fortalecimiento del crecimiento
 						educativo y
-						cultural de San Felipe y sus alrededores, promoviendo el desarrollo integral de la comunidad.
+						cultural de la ciudad de San Felipe y sus alrededores, promoviendo el desarrollo integral de la comunidad.
 					</p>
 					<p class="text-justify">
-						En resumen, la creación de la extensión de la Universidad Simón Rodríguez en San Felipe, estado Yaracuy, ha
+						En resumen, la creación de la extensión de la Universidad Simón Rodríguez en la ciudad de San Felipe, estado Yaracuy, ha
 						sido un importante hito en la historia educativa de la región, brindando oportunidades de formación
 						académica y contribuyendo al progreso social y cultural de sus habitantes.
 					</p>

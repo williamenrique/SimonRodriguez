@@ -83,7 +83,7 @@
                                     <a href="#" class="ml-20" style="margin-left: 50px">La universidad la enviara al participante por medio de su vocero estudiantil el horario del nuevo periodo academico. Y debe ubicar en ese archivo en EXCEL sus cursos a inscribir, seccion y unidad de credito. El sistema solicita es que le coloque la seccion correspondiente en la ventana que dice seccion. Allí desplega varias secciones que corresponde a las aulas moviles de la Zona Inustrial (ZI), Aristides Rojas (LAR) y Guama (G).. NOTA: ESTAS SECCIONES SE DESCRIBEN SOLO CON NUMEROS 3 DIGITO. EJEMPLO: (201, 202, 203, 204, 206, 207)</a>
                                 </li>
                                 <li>
-                                    <strong>Paso #9: </strong><br>
+                                    <strong>Paso #10: </strong><br>
                                     <a href="#" class="ml-20" style="margin-left: 50px">Un vez e haber culminado de inscribir sus cursos deben darle a la opcion PROCESAR y el sistema procede a inscribirlo. Y se dirige a la opcion de DESCARGAR LA INSCRIPCION, y el participante debe descargar e imprimirla y sacar dos copias para llevarla a la universidad a control de estudio.</a>
                                 </li>
                             </ul>
