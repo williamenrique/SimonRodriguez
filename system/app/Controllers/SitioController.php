@@ -344,6 +344,24 @@ class Sitio extends Controllers{
 		die();
 	}
 	/*********TODO: Vista *****************/
+	public function convenio(){
+		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
+		//incluimos un arreglo que contendra toda la informacion que se enviara al home
+		$data['page_tag'] = "TITULO DE PAGINA";
+		$data['page_title'] = "UNESR";
+		$data['page_name'] = "plantilla";
+		$arrData = $this->model->getInst();
+		$data['tlf_instituto'] = $arrData['tlf_instituto'];
+		$data['email_instituto'] = $arrData['email_instituto'];
+		$data['direccion_instituto'] = $arrData['direccion_instituto'];
+		$data['face_instituto'] = $arrData['face_instituto'];
+		$data['insta_instituto'] =$arrData['insta_instituto'];
+		$arrDataPens = $this->model->getPensamiento('nosotros');
+		$data['pensamiento'] = $arrDataPens['pensamiento'];
+		$data['page_functions'] = "function.sitio.js";
+		$this->views->getViews($this, "convenio", $data);
+	}
+		/*********TODO: Vista *****************/
 	public function plantilla(){
 		//invocar la vista con views y usamos getView y pasamos parametros esta clase y la vista
 		//incluimos un arreglo que contendra toda la informacion que se enviara al home

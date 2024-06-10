@@ -119,6 +119,9 @@
                                             </ul>
                                         </li> -->
 											<li>
+												<a href="<?= base_url()?>sitio/convenio">CONVENIO</a>
+											</li>
+											<li>
 												<a href="<?= base_url()?>sitio/nosotros">NOSOTROS</a>
 											</li>
 											<li>
